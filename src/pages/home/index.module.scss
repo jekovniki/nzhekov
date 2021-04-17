@@ -13,13 +13,21 @@
     display:flex;
     flex-flow:column;
     justify-content: space-around;
-    h1 {
-        font-size:5em!important;
-        margin-block-end:0!important;
-        margin-block-start:0!important;
-    }
     .container {
-        margin-left:100px;
+        margin-left:50px;
+        h1 {
+            font-size:5em!important;
+            margin-block-end:0!important;
+            margin-block-start:0!important;
+            .paragraph{
+                display:block;
+            }
+            p {
+                display:inline-block;
+                margin-block-start:0!important;
+                margin-block-end:0!important;
+            }
+        }
     }
 }
 .container {
@@ -35,12 +43,42 @@
         padding:1em 2.5em;
         border-radius:2px;
         transition:0.5s;
+        font-weight:700;
     }
     a:hover {
         background-color:#ffffff;
             transition:0.5s;
             color:#360033;
     }
+}
+
+.letter {
+    transition:0.5s;
+}
+.letter:hover{
+    transition:0.5s;
+    color:rgb(224, 224, 80);
+    transform:rotate(-45deg);
+    cursor:grab;
+}
+
+.letterMain {
+    transition:0.5s;
+}
+.letterMain:hover{
+    font-weight:700;
+    transition:0.5s;
+    color:#07636b;
+    cursor:default;
+}
+.word {
+    transition:0.5s;
+}
+.word:hover {
+    letter-spacing:0.25em;
+    transition:0.5s;
+    color:rgb(224, 224, 80);
+    cursor:grab;
 }
 
 @keyframes slideFromLeftFade {
