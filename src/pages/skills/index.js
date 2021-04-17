@@ -1,11 +1,12 @@
 import React from 'react';
 import styles from './index.module.scss';
+import MainLayout from '../../components/mainLayout';
 
 const Skills = () => {
     return (
-        <main>
-            Skills
-        </main>
+        <MainLayout>
+            <h1>Skills</h1>
+        </MainLayout>
     )
 }
 
