@@ -13,7 +13,10 @@
         margin-left:100px;
     }
 }
-
+.container {
+    animation-name:slideFromLeftFade;
+    animation-duration:1.5s;
+}
 .button {
     margin-top:3em;
     a {
@@ -28,5 +31,16 @@
         background-color:#ffffff;
             transition:0.5s;
             color:#360033;
+    }
+}
+
+@keyframes slideFromLeftFade {
+    0% {
+        transform: translateX(-10%);
+        opacity:0;
+    }
+    100% {
+        transform: translateX(0%);
+        opacity:1;
     }
 }
