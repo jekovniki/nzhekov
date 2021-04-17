@@ -1,3 +1,30 @@
+.page {
+    .text{
+        h2 {
+            animation-name:slideFromBottomFade;
+            animation-duration:1s;
+        }
+        p {
+            animation-name:slideFromLeftFade;
+            animation-duration:1s;
+        }
+    }
+    .animation {
+        position:relative;
+        display:flex;
+        flex-flow:column;
+        justify-content: space-around;
+        text-align:center;
+        align-items:center;
+        .container {
+            a {
+                animation-name:iconAnimation;
+                animation-duration:1.5s;
+            }
+        }
+    }
+}
+
 @media screen and (min-width:767px){
     .page{
         display:flex;
@@ -20,16 +47,239 @@
     }
 }
 
-.page {
-    .text{
-        h2 {
-            animation-name:slideFromBottomFade;
-            animation-duration:1s;
-        }
-        p {
-            animation-name:slideFromLeftFade;
-            animation-duration:1s;
-        }
+// Styling
+a {
+    text-decoration:none;
+    color:#ffffff;
+}
+//Drupal class
+.drupal {
+    display:flex;
+    align-items:center;
+    position:relative;
+    img {
+        transform:rotate(-45deg);
+        transition:0.5s;
+        padding:1em;
+        width:150px;
+    }
+    p {
+        opacity:0;
+        transition:0.5s;
+        right:-3em;
+        position:absolute;
+    }
+}
+
+.drupal{
+    img:hover{
+        transform:rotate(0deg);
+        transition:0.5s;
+    }
+    img:hover+p{
+        opacity:1;
+        transition:0.5s;
+        margin-left:0;
+    }
+}
+// HTML class
+.html {
+    p {
+        transform:rotate(45deg);
+        transition:0.5s;
+        position:absolute;
+        right:1em;
+        top:3em;
+        font-size:1.5em;
+    }
+}
+.html:hover{
+    p {
+        color:#b21f1f;
+        transform:rotate(0deg);
+        transition:0.5s;
+        font-size:3em;
+        padding:0em;
+        top:1em;
+        position:absolute;
+        margin:0!important;
+    }
+}
+// CSS and SCSS class
+.cssandscss{
+    font-size:3em;
+    position:absolute;
+    top:20%;
+    margin-top:0;
+    left:40%;
+    .css:hover {
+        color:#36509c;
+    }
+    .scss:hover {
+        color: #DA70D6;
+    }
+}
+// React JS class
+.react {
+    font-size:3.5em;
+    transition:0.3s;
+    position:absolute;
+    right:0;
+    top:20%;
+    .js {
+        opacity:0;
+        transition:0.3s;
+        top:10%;
+    }
+}
+.react:hover{
+    color:#194d33;
+    transition:0.3s;
+    margin-top:0;
+    margin-bottom:0;
+    .js {
+        opacity:1;
+        font-size:3.5em;
+        color:#f7df1e;
+        transition:0.3s;
+        left:0;
+    }
+}
+// Javascirpt
+
+.javascript {
+    position:absolute;
+    right:2em;
+    p {
+        padding:0.5em;
+        font-size:2em;
+        transition:0.3s;
+        width:5em;
+    }
+}
+.javascript {
+    p:hover {
+        background-color:#f7df1e;
+        color:#000000;
+        transition:0.3s;
+    }
+}
+
+// AEM brown color
+
+.aem {
+    display:flex;
+    img {
+        width:10em!important;
+        height:10em!important;
+        border-radius:50%;
+        transition:0.5s;
+    }
+    p {
+        display:flex;
+        flex-flow:column;
+        justify-content: space-around;
+        opacity:0;
+        margin-left:1em;
+        margin-top:0em;
+        font-size:2em;
+        text-align:left;
+    }
+}
+.aem{
+    img:hover{
+        background-color:rgb(88, 29, 29);
+        transition:0.5s;
+        transform:rotate(180deg);
+    }
+    img:hover+p{
+        opacity:1;
+        transition:0.5s;
+    }
+}
+// OpenCMS class
+.opencms {
+    position:absolute;
+    right:28%;
+    top:70%;
+    font-size:2.5em;
+    .open{
+        transition:0.3s;
+    }
+    .cms{
+        transition:0.3s;
+    }
+}
+.opencms:hover{
+    .open{
+        color:#af1b2d;
+        transition:0.3s;
+    }
+    .cms{
+        color:#003082;
+        transition:0.3s;
+    }
+}
+
+//Wordpress class
+.wordpress {
+    display:flex;
+    align-items:center;
+    position:relative;
+    margin-left:50%;
+    img {
+        padding:1em;
+        width:150px;
+    }
+    p {
+        opacity:0;
+        transition:0.5s;
+        bottom:-3em;
+        position:absolute;
+        left:3em;
+    }
+}
+
+.wordpress{
+    img:hover+p{
+        opacity:1;
+        transition:0.5s;
+        bottom:-1.5em;
+    }
+}
+
+//e-Spirit class
+.e-spirit {
+    display:flex;
+    align-items:center;
+    position:absolute;
+    bottom:10%;
+    left:10%;
+    img {
+        padding:1em;
+        width:100px;
+        transition:0.5s;
+    }
+    p {
+        opacity:0;
+        transition:0.5s;
+        position:absolute;
+        left:3em;
+        font-size:2em;
+        display:inline-block;
+        width:100%;
+    }
+}
+
+.e-spirit{
+    img:hover {
+        transition:0.5s;
+        transform:rotate(90deg);
+    }
+    img:hover+p{
+        opacity:1;
+        transition:0.5s;
+        left:3.5em;
     }
 }
 
@@ -64,5 +314,22 @@
     }
     100% {
         transform: translateX(0%);
+    }
+}
+
+@keyframes iconAnimation {
+    0% {
+        opacity:0;
+    }
+    33% {
+        opacity: 0;
+    }
+    66% {
+        opacity: 0;
+        transform:translateY(20%);
+    }
+    100% {
+        opacity:1;
+        transform:translateY(0%);
     }
 }
