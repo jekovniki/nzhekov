@@ -22,7 +22,7 @@ const mainNav = () => {
                 </div>
                 <MenuLinks links={links} />
                 <div className={styles.social}>
-                    
+                    <p>facebook</p>
                 </div>
             </div>
         </menu>
