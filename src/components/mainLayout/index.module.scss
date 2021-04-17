@@ -1,0 +1,13 @@
+.main {
+    background: -webkit-linear-gradient(to right, #360033, #0b8793)!important;
+    background: linear-gradient(to bottom right, #360033, #07636b)!important;
+}
+
+@media screen and (min-width:767px){
+    section.main {
+        display:flex;
+    }
+    section.main > .navigation {
+        height:100vh;
+    }
+}

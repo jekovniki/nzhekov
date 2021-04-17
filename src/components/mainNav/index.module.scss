@@ -1,0 +1,42 @@
+menu.navigation {
+    list-style-type: none;
+    padding-inline-start:0px;
+    text-align:center;
+    background-color:#1d1d1d;
+    margin-block-start:0;
+    margin-block-end:0;
+}
+.header {
+    padding:0 2em;
+}
+
+.small {
+    font-size:0.8rem;
+}
+
+.text h3 {
+    margin-block-start:0;
+    margin-block-end:0;
+}
+
+@media screen and (min-width:767px){
+    .navigation > .container {
+        justify-content:space-around;
+        display:flex;
+        height:100vh;
+        flex-flow:column;
+    }
+    .header {
+        flex:1;
+    }
+    nav {
+        flex:1;
+        justify-content:space-around;
+        display:flex;
+        flex-flow:column;
+    }
+    .social {
+        flex:1;
+        text-align:end;
+    }
+}

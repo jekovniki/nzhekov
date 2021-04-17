@@ -7,16 +7,23 @@ const mainNav = () => {
     const links = NavLinks()
 
     return (
-        <menu className={styles[`legal-nav`]}>
+        <menu className={styles[`navigation`]}>
             <div className={styles.container}>
                 <div className={styles.header}>
-                    Test
-                </div>
-                <div className={styles.content}>
-                    <h2>Test</h2>
-                    <h4>Test</h4>
+                    <div className={styles.image}>
+                        <h2>Zh</h2>
+                    </div>
+                    <div className={styles.text}>
+                        <h3>Niki</h3>
+                    </div>
+                    <div className={styles.small}>
+                        Web Developer
+                    </div>
                 </div>
                 <MenuLinks links={links} />
+                <div className={styles.social}>
+                    
+                </div>
             </div>
         </menu>
     )

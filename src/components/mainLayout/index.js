@@ -4,7 +4,7 @@ import MainNav from '../mainNav'
 
 const MainLayout = ({children}) => {
     return (
-        <section className={styles.legal}>
+        <section className={styles.main}>
             <div className={styles.navigation}>
                 <MainNav />
             </div>
