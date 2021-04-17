@@ -1,3 +1,12 @@
+.home {
+    position:relative;
+    >section{
+        >div:first-child {
+            animation-name: slideFromLeft;
+            animation-duration:1.5s;
+        }
+    }
+}
 .homepage {
     height:100vh;
     width:100vw;
@@ -42,5 +51,14 @@
     100% {
         transform: translateX(0%);
         opacity:1;
+    }
+}
+
+@keyframes slideFromLeft {
+    0% {
+        transform: translateX(-100%);
+    }
+    100% {
+        transform: translateX(0%);
     }
 }

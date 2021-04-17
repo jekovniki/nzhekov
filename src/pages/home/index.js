@@ -4,7 +4,8 @@ import MainLayout from '../../components/mainLayout'
 
 const Homepage = () => {
     return (
-        <MainLayout>
+        <div className={styles.home}>
+            <MainLayout>
             <section className={styles.homepage}>
                 <div className={styles.container}>
                     <h1>
@@ -23,6 +24,7 @@ const Homepage = () => {
                 </div>
             </section>
         </MainLayout>
+        </div>
     )
 }
 
