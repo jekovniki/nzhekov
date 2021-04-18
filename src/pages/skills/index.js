@@ -37,7 +37,36 @@ const Skills = () => {
                         </div>
                         <div className={styles.work}>
                             <div className={styles.tiles}>
-                                Test
+                                <div className={styles.tile}>
+                                    <h3>
+                                        Expert in the regulatory compliance department
+                                    </h3>
+                                    <h5>EF Asset Managemnt JSC.</h5>
+                                    <p>
+                                        09/2020 - Present
+                                    </p>
+                                    <p>Leading management company.</p>
+                                </div>
+                                <div className={styles.tile}>
+                                    <h3>
+                                        Website administrator
+                                    </h3>
+                                    <h5>Eurostar-BG Ltd.</h5>
+                                    <p>
+                                        01/2020 - 09/2020
+                                    </p>
+                                    <p>Content management company.</p>
+                                </div>
+                                <div className={styles.tile}>
+                                    <h3>
+                                        Website administrator
+                                    </h3>
+                                    <h5>Modo Ltd.</h5>
+                                    <p>
+                                        08/2016 - 12/2019
+                                    </p>
+                                    <p>Content management company.</p>
+                                </div>
                             </div>
                         </div>
                     </div>

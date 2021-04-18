@@ -25,6 +25,7 @@ Skills
                 display:flex;
                 flex-flow:column;
                 justify-content:space-around;
+                width:100%;
                 .skills {
                     flex:1;
                     display:flex;
@@ -33,6 +34,19 @@ Skills
                 }
                 .work {
                     flex:1;
+                    .tiles {
+                        display:block;
+                        .tile {
+                            width:46%;
+                            display:inline-block;
+                            background-color:#2a2a2a;
+                            padding:1%;
+                            margin-bottom:2%;
+                        }
+                        .tile:nth-child(even){
+                            margin-left:2%;
+                        }
+                    }
                 }
             }
         }
