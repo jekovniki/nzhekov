@@ -213,14 +213,13 @@ a {
 // AEM brown color
 
 .aem {
-    display:flex;
+    left:25%;
+    top:70%;
+    position:absolute;
     img {
-        width:150px!important;
+        width:150px;
         border-radius:50%;
         transition:0.5s;
-        left:25%;
-        top:70%;
-        position:absolute;
     }
     p {
         display:flex;
@@ -229,9 +228,9 @@ a {
         opacity:0;
         font-size:2em;
         text-align:left;
+        left:110%;
+        top:-15%;
         position:absolute;
-        left:39%;
-        top:66%;
     }
 }
 .aem{
