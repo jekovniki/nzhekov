@@ -20,7 +20,9 @@ const mainNav = () => {
                         Web Developer
                     </div>
                 </div>
-                <MenuLinks links={links} />
+                <div className={styles.navi}>
+                    <MenuLinks links={links} />
+                </div>
                 <div className={styles.social}>
                     <p>facebook</p>
                 </div>
