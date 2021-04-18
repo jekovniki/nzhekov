@@ -75,20 +75,22 @@ a {
 }
 //Drupal class
 .drupal {
-    display:flex;
-    align-items:center;
-    position:relative;
+    position:absolute;
+    left:53%;
+    top:65%;
     img {
         transform:rotate(-45deg);
         transition:0.5s;
         padding:1em;
-        width:150px;
+        width:125px;
     }
     p {
         opacity:0;
         transition:0.5s;
-        right:-3em;
+        left:90%;
+        top:25%;
         position:absolute;
+        width:100%;
     }
 }
 
@@ -100,89 +102,111 @@ a {
     img:hover+p{
         opacity:1;
         transition:0.5s;
-        margin-left:0;
     }
 }
 // HTML class
 .html {
-    p {
+    position:absolute;
+    top:15%;
+    left:55%;
+    display:flex;
+    img {
+        width:100px;
         transform:rotate(45deg);
         transition:0.5s;
-        position:absolute;
-        right:1em;
-        top:3em;
-        font-size:1.5em;
+    }
+    p {
+        transition:0.5s;
+        font-size:2em;
+        opacity:0
     }
 }
 .html:hover{
+    img {
+        transform:rotate(0deg);
+        transition:0.5s;
+    }
     p {
-        color:#b21f1f;
+        color:#ec6231;
         transform:rotate(0deg);
         transition:0.5s;
         font-size:3em;
-        padding:0em;
-        top:1em;
-        position:absolute;
-        margin:0!important;
+        font-weight:700;
+        opacity:1;
     }
 }
 // CSS and SCSS class
 .cssandscss{
     font-size:3em;
     position:absolute;
-    top:20%;
+    top:15%;
     margin-top:0;
     left:40%;
-    .css:hover {
-        color:#36509c;
+    img {
+        width:140px;
     }
-    .scss:hover {
-        color: #DA70D6;
+    p {
+        opacity:0;
+        top:-90px;
+        transition:0.5s;
+        position:absolute;
+        left:30px;
+    }
+}
+.cssandscss:hover{
+    p {
+        opacity:1;
+        left:0;
+        top:-110px;
+        letter-spacing:0.5em;
+        transition:0.5s;
     }
 }
 // React JS class
 .react {
-    font-size:3.5em;
+    font-size:2em;
     transition:0.3s;
     position:absolute;
-    right:0;
-    top:20%;
-    .js {
+    left:25%;
+    top:15%;
+    img {
+        width:150px;
+        animation: App-logo-spin infinite 20s linear;
+    }
+    p {
+        top:-80px;
+        left:20px;
+        position:absolute;
         opacity:0;
-        transition:0.3s;
-        top:10%;
+        transition:0.5s;
     }
 }
 .react:hover{
-    color:#194d33;
-    transition:0.3s;
-    margin-top:0;
-    margin-bottom:0;
-    .js {
+    img {
+        animation-play-state:paused;
+    }
+    p {
+        top:-100px;
         opacity:1;
-        font-size:3.5em;
-        color:#f7df1e;
-        transition:0.3s;
-        left:0;
+        transition:0.5s;
     }
 }
 // Javascirpt
 
 .javascript {
     position:absolute;
-    right:2em;
-    p {
-        padding:0.5em;
-        font-size:2em;
-        transition:0.3s;
-        width:5em;
+    left:23%;
+    top:40%;
+    img {
+        width:150px;
+        transition:0.5s;
+        padding:20px;
     }
 }
 .javascript {
-    p:hover {
-        background-color:#f7df1e;
-        color:#000000;
-        transition:0.3s;
+    img:hover {
+        transform:rotate(360deg);
+        transition:1s;
     }
 }
 
@@ -191,20 +215,23 @@ a {
 .aem {
     display:flex;
     img {
-        width:10em!important;
-        height:10em!important;
+        width:150px!important;
         border-radius:50%;
         transition:0.5s;
+        left:25%;
+        top:70%;
+        position:absolute;
     }
     p {
         display:flex;
         flex-flow:column;
         justify-content: space-around;
         opacity:0;
-        margin-left:1em;
-        margin-top:0em;
         font-size:2em;
         text-align:left;
+        position:absolute;
+        left:39%;
+        top:66%;
     }
 }
 .aem{
@@ -218,36 +245,14 @@ a {
         transition:0.5s;
     }
 }
-// OpenCMS class
-.opencms {
-    position:absolute;
-    right:28%;
-    top:70%;
-    font-size:2.5em;
-    .open{
-        transition:0.3s;
-    }
-    .cms{
-        transition:0.3s;
-    }
-}
-.opencms:hover{
-    .open{
-        color:#af1b2d;
-        transition:0.3s;
-    }
-    .cms{
-        color:#003082;
-        transition:0.3s;
-    }
-}
 
 //Wordpress class
 .wordpress {
     display:flex;
     align-items:center;
-    position:relative;
-    margin-left:50%;
+    position:absolute;
+    left:40%;
+    top:40%;
     img {
         padding:1em;
         width:150px;
@@ -274,8 +279,8 @@ a {
     display:flex;
     align-items:center;
     position:absolute;
-    bottom:30%;
-    left:10%;
+    top:44%;
+    right:33%;
     img {
         padding:1em;
         width:100px;
@@ -285,7 +290,7 @@ a {
         opacity:0;
         transition:0.5s;
         position:absolute;
-        left:3em;
+        left:3.5em;
         font-size:2em;
         display:inline-block;
         width:100%;
@@ -300,7 +305,7 @@ a {
     img:hover+p{
         opacity:1;
         transition:0.5s;
-        left:3.5em;
+        left:4em;
     }
 }
 
@@ -355,3 +360,11 @@ a {
     }
 }
 
+@keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
