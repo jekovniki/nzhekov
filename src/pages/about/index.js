@@ -26,7 +26,31 @@ const About = () => {
                 </div>
                 <div className={styles.animation}>
                     <div className={styles.container}>
-                    
+                        <div className={styles.skills}>
+                            <div className={styles.frontend}>
+                                Front-end
+                            </div>
+                            <div className={styles.backend}>
+                                Back-end
+                            </div>
+                            <div className={styles.react}>
+                                ReactJS
+                            </div>
+                            <div className={styles.drupal}>
+                                Drupal
+                            </div>
+                        </div>
+                        <div className={styles.certificates}>
+                            <div className={styles.pdf}>
+                                ReactJS - June 2020
+                            </div>
+                            <div className={styles.pdf}>
+                                Drupal 8 Site Building - October 2016
+                            </div>
+                            <div className={styles.pdf}>
+                                Drupal Site Building - September 2015
+                            </div>
+                        </div>
                     </div>
                 </div>
             </section>
