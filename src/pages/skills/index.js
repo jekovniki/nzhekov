@@ -7,7 +7,7 @@ const Skills = () => {
         <SkillsPageLayout>
             <div className={styles.rightColumn}>
             <div className={styles.skills}>
-                <a className={styles['drupal']} href="/skills">
+                <a className={styles['drupal']} href="/skills/drupal">
                     <img src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/
                     Pg0KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDE5LjAuMCwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIF
                     ZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPg0KPHN2ZyB2ZXJzaW9uPSIxLjEiIGlkPSJDYXBhXzEiIHhtbG5zPSJodHRwO

@@ -5,7 +5,7 @@ import MainLayout from '../../components/mainLayout';
 const Projects = () => {
     return (
         <MainLayout>
-            <h1>Projects</h1>
+            <div className={styles.projects}></div>
         </MainLayout>
     )
 }

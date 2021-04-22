@@ -1,11 +1,67 @@
+/* Something */
+
+/*
+Skills
+*/
+.skills {
+    position:relative;
+    flex:1;
+}
+.work {
+    position:relative;
+    flex:1;
+}
+.rightColumn {
+    height:100%;
+    display:flex;
+    flex-flow:column;
+}
+
+.work{
+    .tiles{
+        .tile{
+            background:linear-gradient(to bottom right, #504f4f, #1b1b1b);
+            padding:1%;
+            transition:1s;
+            animation-name:slideFromBottomFadeTiles;
+            animation-duration:1.5s;
+        }
+        .tile:hover{
+            cursor:grab;
+            background:linear-gradient(to bottom right, #2b2a2a, #1b1b1b);
+            transition:1s;
+        }
+    }
+}
+@media screen and (min-width:767px){
+    .work {
+        flex:1;
+        .tiles {
+            display:block;
+            .tile {
+                width:46%;
+                display:inline-block;
+                margin-bottom:2%;
+            }
+            .tile:nth-child(even){
+                margin-left:2%;
+            }
+        }
+    }
+}
+
+
 /* Skills icons*/
 
 // Styling
 a {
     text-decoration:none;
     color:#ffffff;
+    animation-name:iconAnimation;
+    animation-duration:1.5s;
 }
 //Drupal class
+
 .drupal {
     position:absolute;
     left:53%;
