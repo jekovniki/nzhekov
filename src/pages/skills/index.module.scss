@@ -54,11 +54,13 @@ Skills
 /* Skills icons*/
 
 // Styling
-a {
-    text-decoration:none;
-    color:#ffffff;
-    animation-name:iconAnimation;
-    animation-duration:1.5s;
+.skills {
+    a {
+        text-decoration:none;
+        color:#ffffff;
+        animation-name:iconAnimation;
+        animation-duration:1.5s;
+    }
 }
 //Drupal class
 

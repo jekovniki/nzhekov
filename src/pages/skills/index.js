@@ -9,16 +9,16 @@ const Skills = () => {
             <div className={styles.skills}>
                 <a className={styles['drupal']} href="/skills/drupal">
                     <img src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/
-                    Pg0KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDE5LjAuMCwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIF
-                    ZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPg0KPHN2ZyB2ZXJzaW9uPSIxLjEiIGlkPSJDYXBhXzEiIHhtbG5zPSJodHRwO
-                    i8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweC
-                    IgeT0iMHB4Ig0KCSB2aWV3Qm94PSIwIDAgNTEyLjEzNiA1MTIuMTM2IiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDA
-                    gMCA1MTIuMTM2IDUxMi4xMzY7IiB4bWw6c3BhY2U9InByZXNlcnZlIj4NCjxwYXRoIHN0eWxlPSJmaWxsOiMwM0E5RjQ7IiBk
-                    PSJNMzQ2LjA3Myw4MS4xNDhjLTM0LjQxMi0yMS4zMDctNjUuNjIxLTQ3LjM5NS05Mi42OTMtNzcuNDgzYy0yLjM4NC0yLjY4MS
-                    01LjkzMi00LjAyMS05LjQ5My0zLjU4NA0KCWMtMy41NjEsMC41MS02LjYyNSwyLjc4LTguMTQ5LDYuMDM3Yy0xMy43MTQsMjguN
-                    jgzLTM0LjQ5Nyw1My40MDgtNjAuMzk1LDcxLjg1MUM4NC42NjUsMTA4LjI3NiwyMi45NjcsMTkyLjQ4NiwyMS40MDEsMjg4LjA4M
-                    Q0KCWMzLjE1NiwxMjYuNTY0LDEwOC4wOTMsMjI2LjczMSwyMzQuNjY3LDIyNGMxMjYuNTc0LDIuNzMxLDIzMS41MTEtOTcuNDM2LD
-                    IzNC42NjctMjI0DQoJQzQ4OS44NDEsMTk1Ljg1OSw0MzIuMzc5LDExMy42NjIsMzQ2LjA3Myw4MS4xNDh6Ii8+DQo8Zz4NCgk8cGF0
+                                Pg0KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDE5LjAuMCwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIF
+                                ZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPg0KPHN2ZyB2ZXJzaW9uPSIxLjEiIGlkPSJDYXBhXzEiIHhtbG5zPSJodHRwO
+                                i8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweC
+                                IgeT0iMHB4Ig0KCSB2aWV3Qm94PSIwIDAgNTEyLjEzNiA1MTIuMTM2IiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDA
+                                gMCA1MTIuMTM2IDUxMi4xMzY7IiB4bWw6c3BhY2U9InByZXNlcnZlIj4NCjxwYXRoIHN0eWxlPSJmaWxsOiMwM0E5RjQ7IiBk
+                                PSJNMzQ2LjA3Myw4MS4xNDhjLTM0LjQxMi0yMS4zMDctNjUuNjIxLTQ3LjM5NS05Mi42OTMtNzcuNDgzYy0yLjM4NC0yLjY4MS
+                                01LjkzMi00LjAyMS05LjQ5My0zLjU4NA0KCWMtMy41NjEsMC41MS02LjYyNSwyLjc4LTguMTQ5LDYuMDM3Yy0xMy43MTQsMjguN
+                                jgzLTM0LjQ5Nyw1My40MDgtNjAuMzk1LDcxLjg1MUM4NC42NjUsMTA4LjI3NiwyMi45NjcsMTkyLjQ4NiwyMS40MDEsMjg4LjA4M
+                                Q0KCWMzLjE1NiwxMjYuNTY0LDEwOC4wOTMsMjI2LjczMSwyMzQuNjY3LDIyNGMxMjYuNTc0LDIuNzMxLDIzMS41MTEtOTcuNDM2LD
+                                IzNC42NjctMjI0DQoJQzQ4OS44NDEsMTk1Ljg1OSw0MzIuMzc5LDExMy42NjIsMzQ2LjA3Myw4MS4xNDh6Ii8+DQo8Zz4NCgk8cGF0
                                 aCBzdHlsZT0iZmlsbDojRkFGQUZBOyIgZD0iTTQwNS40MDEsMjU2LjA4MWMtMjEuMTExLDEuNzU4LTQwLjc2OCwxMS40NjQtNTQuOTk
                                 3LDI3LjE1Nw0KCQljLTcuODkzLDYuNC0xNy40OTMsMTQuMTIzLTI5LjUwNCwyMi45OTdjLTUzLjk5NS01MS4wNzItODcuNzAxLTcxLj
                                 Q4OC0xMTguMTY1LTcxLjQ4OGMtNjUuOTYzLDAtOTYsNDQuMjI0LTk2LDg1LjMzMw0KCQljMCw0Ny4xMjgsMzguMjA1LDg1LjMzMyw4N
