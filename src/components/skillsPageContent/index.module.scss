@@ -1,0 +1,52 @@
+/*
+Skills
+*/
+h2.content {
+    animation-name:slideFromTopFade;
+    animation-duration:1.5s;
+}
+p.content {
+    animation-name:slideFromLeftFade;
+    animation-duration:1.5s;
+}
+@media screen and (min-width:767px){
+    h2.content {
+        font-size:4em;
+        margin-block-end:0;
+    }
+}
+
+@keyframes slideFromLeftFade {
+    0% {
+        transform: translateX(-10%);
+        opacity:0;
+    }
+    50%{
+        opacity:0;
+    }
+    100% {
+        transform: translateX(0%);
+        opacity:1;
+    }
+}
+
+@keyframes slideFromBottomFade {
+    0% {
+        transform: translateY(20%);
+        opacity:0;
+    }
+    100% {
+        transform: translateY(0%);
+        opacity:1;
+    }
+}
+@keyframes slideFromTopFade {
+    0% {
+        transform: translateY(-20%);
+        opacity:0;
+    }
+    100% {
+        transform: translateY(0%);
+        opacity:1;
+    }
+}

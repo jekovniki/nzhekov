@@ -1,11 +1,15 @@
 .projects{
     display:block;
     position:relative;
+    animation-name:SlideFromLeftFade;
+    animation-duration:1.5s;
     .img {
         width:100%;
         height:100%;
         object-fit:cover;
         object-position: center;
+        animation-name:SlideFromLeftFade;
+        animation-duration:1.5s;
     }
     .content {
         position:absolute;
@@ -42,16 +46,42 @@
         transition:0.5s;
     }
 }
+.holder {
+    position:relative;
+    width:100%;
+    height:100%;
+    display:flex;
+    .projects{
+        width:50%;
+        height:50%;
+    }
+}
+
+@media screen and (min-width:1000px) {
+    .holder {
+        .projects{
+            width:25%;
+            height:25%;
+        }
+    }
+}
 
 @media screen and (min-width:1800px) {
     .holder {
-        position:relative;
-        width:100%;
-        height:100%;
-        display:flex;
         .projects{
             width:30%;
             height:30%;
         }
+    }
+}
+
+@keyframes slideFromLeftFade {
+    0% {
+        transform: translateX(-50%);
+        opacity:0;
+    }
+    100% {
+        transform: translateX(0%);
+        opacity:1;
     }
 }
