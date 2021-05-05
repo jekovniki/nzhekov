@@ -1,6 +1,12 @@
 import React from 'react';
 import styles from './index.module.scss';
 import MainLayout from '../../components/mainLayout';
+import drupal7 from '../../pdf/Drupal7.jpg'
+import drupal8 from '../../pdf/Drupal8.jpeg'
+import reactjs from '../../pdf/ReactJS.jpeg'
+import drupal7pdf from '../../pdf/Drupal7.pdf'
+import drupal8pdf from '../../pdf/Drupal8.pdf'
+import reactjspdf from '../../pdf/ReactJS.pdf'
 
 const About = () => {
     return (
@@ -64,12 +70,18 @@ const About = () => {
                         </div>
                         <div className={styles.certificates}>
                             <div className={styles.pdf}>
+                                <img src={reactjs}  className={styles.img} 
+                                alt="ReactJS Certificate" title="ReactJS Certificate"/>
                                 ReactJS - June 2020
                             </div>
                             <div className={styles.pdf}>
+                                <img src={drupal8}  className={styles.img} 
+                                alt="Drupal 8" title="Drupal 8"/>
                                 Drupal 8 Site Building - October 2016
                             </div>
                             <div className={styles.pdf}>
+                                <img src={drupal7}  className={styles.img} 
+                                alt="Drupal Site Building" title="Drupal Site Building"/>
                                 Drupal Site Building - September 2015
                             </div>
                         </div>

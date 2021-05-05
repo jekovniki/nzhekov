@@ -16,6 +16,7 @@
         justify-content: space-around;
         text-align:center;
         align-items:center;
+        margin:0 20px;
         .container {
             width:100%;
             .skills {
@@ -62,6 +63,17 @@
                 animation-name:iconAnimation;
                 animation-duration:1.5s;
             }
+            .certificates{
+                margin:50px;
+                text-align:left;
+                .pdf {
+                    animation-name:slideFromBottomFadePDF;
+                    animation-duration:1.5s;
+                    .img {
+                        width:15%;
+                    }
+                }
+            }
         }
     }
 }
@@ -84,6 +96,26 @@
         }
         .animation{
             flex:1;
+            .certificates {
+                display:flex;
+                justify-content: space-around;
+                text-align: center;
+                .pdf{
+                    flex:1;
+                    margin: 0 10px;
+                    text-align:center;
+                    .img {
+                        width:100%!important;
+                        object-fit:cover;
+                    }
+                }
+                .pdf:first-child{
+                    margin:0 10px 0 0;
+                }
+                .pdf:last-child{
+                    margin:0 0 0 10px;
+                }
+            }
         }
     }
 }
@@ -152,5 +184,20 @@
     }
     100% {
         width:90%;
+    }
+}
+
+@keyframes slideFromBottomFadePDF {
+    0% {
+        transform: translateY(20%);
+        opacity:0;
+    }
+    65% {
+        transform: translateY(20%);
+        opacity:0;
+    }
+    100% {
+        transform: translateY(0%);
+        opacity:1;
     }
 }
