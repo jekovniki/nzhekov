@@ -102,18 +102,23 @@
                 text-align: center;
                 .pdf{
                     flex:1;
-                    margin: 0 10px;
+                    margin: 20px 10px 0 10px;
                     text-align:center;
+                    transition:0.5s;
                     .img {
                         width:100%!important;
                         object-fit:cover;
                     }
                 }
                 .pdf:first-child{
-                    margin:0 10px 0 0;
+                    margin:20px 10px 0 0;
                 }
                 .pdf:last-child{
-                    margin:0 0 0 10px;
+                    margin:20px 0 0 10px;
+                }
+                .pdf:hover{
+                    margin-top:5px!important;
+                    transition:0.5s;
                 }
             }
         }

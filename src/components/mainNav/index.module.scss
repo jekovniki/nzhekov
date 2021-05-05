@@ -1,4 +1,4 @@
-menu.navigation {
+header.navigation {
     list-style-type: none;
     padding-inline-start:0px;
     text-align:center;
@@ -55,6 +55,40 @@ nav {
             color:#e4e4d7;
             a {
                 background-color:#282828!important;
+            }
+        }
+    }
+}
+@media screen and (max-width:767px){
+    .navigation {
+        .header {
+            background-color:#1d1d1d;
+            display:flex;
+            flex-flow:row;
+            flex-wrap:wrap;
+            justify-content: space-between;
+            padding:0 20px;
+        }
+        .text {
+            display:none;
+        }
+        .small{
+            display:none;
+        }
+        .mobile-burger {
+            width:50px;
+            text-align:center;
+            .line {
+                width:80%;
+                height:2px;
+                background:linear-gradient(to bottom right, #8b4f88, #07636b);
+                margin:10px 0;
+            }
+            .line:first-child{
+                width:100%;
+            }
+            .line:last-child{
+                width:60%;
             }
         }
     }

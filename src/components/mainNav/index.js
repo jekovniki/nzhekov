@@ -7,7 +7,7 @@ const mainNav = () => {
     const links = NavLinks()
 
     return (
-        <menu className={styles[`navigation`]}>
+        <header className={styles[`navigation`]}>
             <div className={styles.container}>
                 <div className={styles.header}>
                     <div className={styles.image}>
@@ -19,6 +19,11 @@ const mainNav = () => {
                     <div className={styles.small}>
                         Web Developer
                     </div>
+                    <div className={styles['mobile-burger']}>
+                        <div className={styles.line}></div>
+                        <div className={styles.line}></div>
+                        <div className={styles.line}></div>
+                    </div>
                 </div>
                 <div className={styles.navi}>
                     <MenuLinks links={links} />
@@ -27,7 +32,7 @@ const mainNav = () => {
                     <p>facebook</p>
                 </div>
             </div>
-        </menu>
+        </header>
     )
 }
 
