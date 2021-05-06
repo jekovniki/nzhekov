@@ -1,6 +1,7 @@
 import React from 'react';
 import styles from './index.module.scss';
 import MainLayout from '../../components/mainLayout'
+import Logo from '../../images/N.svg'
 
 const Homepage = () => {
     return (
@@ -34,6 +35,9 @@ const Homepage = () => {
                         </a>
                     </div>
                 </div>
+            </section>
+            <section>
+                <img src={Logo} width='250px' height='250px' fill='#fff'/>
             </section>
         </MainLayout>
         </div>
