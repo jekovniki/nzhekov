@@ -14,3 +14,31 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.show {
+  margin-top:0;
+  transition:1s;
+}
+.hide {
+  margin-top:-120%;
+  transition:1s;
+}
+@media screen and (max-width:767px){
+  .line {
+    width:80%;
+    height:2px;
+    background:linear-gradient(to bottom right, #8b4f88, #07636b);
+    margin:10px 0;
+    transition:1s;
+  }
+  .line:first-child{
+    width:100%;
+  }
+  .line:last-child{
+    width:60%;
+    transition:1s;
+  }
+  .line.extend{
+    width:100%;
+    transition:1s;
+  }
+}

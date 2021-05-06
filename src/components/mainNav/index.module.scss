@@ -5,6 +5,9 @@ header.navigation {
     background-color:#1d1d1d;
     margin-block-start:0;
     margin-block-end:0;
+    .navi {
+        position:relative;
+    }
 }
 
 .small {
@@ -78,6 +81,8 @@ nav {
         .mobile-burger {
             width:50px;
             text-align:center;
+            margin-top:auto;
+            margin-bottom:auto;
             .line {
                 width:80%;
                 height:2px;

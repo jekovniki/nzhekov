@@ -1,10 +1,16 @@
-import React from 'react'
+import React, { useState } from 'react'
 import styles from './index.module.scss'
 import MenuLinks from '../menuLinks'
 import NavLinks from '../../utils/navLinks'
 
-const mainNav = () => {
-    const links = NavLinks()
+const MainNav = () => {
+    const links = NavLinks();
+
+    const [isActive, setActive] = useState("false");
+    const ToggleClass = () => {
+        setActive(!isActive);
+    };
+
 
     return (
         <header className={styles[`navigation`]}>
@@ -19,13 +25,14 @@ const mainNav = () => {
                     <div className={styles.small}>
                         Web Developer
                     </div>
-                    <div className={styles['mobile-burger']}>
-                        <div className={styles.line}></div>
-                        <div className={styles.line}></div>
-                        <div className={styles.line}></div>
+                    <div className={styles[`mobile-burger`]} 
+                        onClick={ToggleClass}>
+                        <div className={isActive ? "line" : "line extend"}></div>
+                        <div className={isActive ? "line" : "line extend"}></div>
+                        <div className={isActive ? "line" : "line extend"}></div>
                     </div>
                 </div>
-                <div className={styles.navi}>
+                <div className={isActive ? "hide" : "show"}>
                     <MenuLinks links={links} />
                 </div>
                 <div className={styles.social}>
@@ -36,4 +43,4 @@ const mainNav = () => {
     )
 }
 
-export default mainNav
+export default MainNav
