@@ -117,33 +117,20 @@
     }
 }
 
-.letter-n {
-    position: relative;
-    height: 50px;
-    width: 30px;
-    border-style: solid;
-    border-color: red;
-    border-width: 0 10px 0 10px;
-    ::before {
-        content: "";
-        position: absolute;
-        width: 10px;
-        height: 58px;
-        transform-origin: 5px 14px 0;
-        transform: rotate(-43deg);
-        background: red;
+.logo {
+    :hover{
+        transition:0.5s;
+        margin-top:-5%;
+    }
+    svg {
+        animation-name:logo;
+        animation-duration:1.5s;
+        transition:0.5s;
+        polygon {
+            fill:#0F2027;
+        }
     }
 }
-.letter-n::before {
-    content: "";
-    position: absolute;
-    width: 10px;
-    height: 58px;
-    transform-origin: 5px 14px 0;
-    transform: rotate(-43deg);
-    background: red;
-}
-
 
 @keyframes slideFromLeftFade {
     0% {
@@ -172,5 +159,23 @@
     100% {
         transform: translateY(0%);
         opacity:1;
+    }
+}
+
+@keyframes logo {
+    0% {
+        transform: translateY(100%);
+        width:22%;
+        opacity:0;
+    }
+    50% {
+        transform: translateY(100%);
+        width:22%;
+        opacity:0;
+    }
+    100% {
+        transform: translateY(0%);
+        opacity:1;
+        width:33%;
     }
 }
