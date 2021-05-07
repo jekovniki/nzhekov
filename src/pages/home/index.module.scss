@@ -114,6 +114,27 @@
                 font-size:0.9em;
             }
         }
+        >section{
+            >div+div{
+                display:flex;
+                flex-flow:column-reverse;
+                justify-content: space-around;
+                .homepage {
+                    padding:100px 0;
+                }
+                .logo{
+                    display:flex;
+                    justify-content:space-around;
+                    margin:200px 0 100px;
+                    svg {
+                        transform:rotate(-45deg);
+                        transition:0.5s;
+                        animation-name:logoMobile;
+                        animation-duration:2s;
+                    }
+                }
+            }
+        }
     }
 }
 
@@ -127,7 +148,7 @@
         animation-duration:1.5s;
         transition:0.5s;
         polygon {
-            fill:#0F2027;
+            fill:#E2E2E2;
         }
     }
 }
@@ -177,5 +198,42 @@
         transform: translateY(0%);
         opacity:1;
         width:33%;
+    }
+}
+@keyframes logoMobile {
+    0% {
+        transform: translateY(100%);
+        width:22%;
+        opacity:0;
+    }
+    50% {
+        transform: translateY(100%);
+        width:22%;
+        opacity:0;
+    }
+    100% {
+        transform: translateY(0%);
+        opacity:1;
+        width:33%;
+    }
+}
+@keyframes logoMobile {
+    0% {
+        transform: translateY(100%);
+        width:22%;
+        opacity:0;
+    }
+    30% {
+        transform: translateY(100%);
+        width:22%;
+        opacity:0;
+    }
+    60% {
+        transform: translateY(0%);
+        opacity:1;
+        width:33%;
+    }
+    100% {
+        transform: rotate(-45deg);
     }
 }
