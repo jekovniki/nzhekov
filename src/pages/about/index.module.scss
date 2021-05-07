@@ -64,7 +64,7 @@
                 animation-duration:1.5s;
             }
             .certificates{
-                margin:50px;
+                margin:50px 0 0 0;
                 text-align:left;
                 .pdf {
                     animation-name:slideFromBottomFadePDF;
@@ -138,7 +138,6 @@
         .animation {
             margin-top:150px;
             .certificates{
-                margin:50px 0 0 0!important;
                 display:flex;
                 flex-flow:row;
                 flex-wrap:wrap;

@@ -54,6 +54,7 @@ header.navigation {
         text-align:center;
         align-items:center;
         display:flex;
+        justify-content: space-around;
     }
 }
 
@@ -73,6 +74,19 @@ nav {
         }
     }
 }
+
+.social {
+    svg {
+        fill:#e4e4d7;
+        transition:0.5s;
+        margin:20px 10px;
+        :hover{
+            fill:#07636b;
+            transition:0.5s;
+        }
+    }
+}
+
 @media screen and (max-width:767px){
     .navigation {
         .header {
