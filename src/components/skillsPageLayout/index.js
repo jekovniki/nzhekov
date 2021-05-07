@@ -1,18 +1,19 @@
 import React from 'react';
 import styles from './index.module.scss';
 import MainLayout from '../../components/mainLayout';
-import SkillsPageContent from '../../components/skillsPageContent';
+import SkillsPageRight from '../../components/skillsPageRight';
+
 
 const SkillsPageLayout = ({children}) => {
     return (
         <MainLayout>
             <section className={styles.page}>
                 <div className={styles.text}>
-                    <SkillsPageContent />
+                    {children}
                 </div>
                 <div className={styles.animation}>
                     <div className={styles.container}>
-                        {children}
+                        <SkillsPageRight />
                     </div>
                 </div>
             </section>

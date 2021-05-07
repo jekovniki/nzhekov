@@ -26,7 +26,8 @@ code {
   .line {
     width:80%;
     height:2px;
-    background:linear-gradient(to bottom right, #8b4f88, #07636b);
+    background: -webkit-linear-gradient(to right, #c9d6ff, #e2e2e2);
+    background: linear-gradient(to right, #c9d6ff, #e2e2e2);
     margin:10px 0;
     transition:1s;
   }
