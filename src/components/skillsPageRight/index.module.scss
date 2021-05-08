@@ -350,19 +350,39 @@ Skills
     }
     .html {
         width:17%;
-        top:26%;
-        left:50%;
+        top:28%;
+        left:37%;
     }
     .cssandscss{
         width:20%;
         left:35%;
         font-size:1.75em;
+        p{
+            left:15%;
+            top:-30px;
+        }
+    }
+    .cssandscss:hover{
+        p{
+           top:-70px; 
+           left:15%;
+        }
     }
     .react {
         width:20%;
+        p {
+            top:-80px;
+            left:0%;
+        }
+        :hover{
+            p{
+                top:-110px;
+            }
+        }
     }
     .javascript {
         width:17%;
+        top:30%;
     }
     .aem {
         width:20%;
@@ -372,15 +392,194 @@ Skills
     }
     .wordpress {
         width:20%;
+        top:50%;
+        left:10%;
+        p{
+            left:5%;
+        }
     }
     .e-spirit {
         width:15%;
+        top:50%;
+        left:35%;
         p {
             font-size:1em;
         }
     }
 }
+@media screen and (max-width:2090px){
+    .work {
+        .tiles {
+            .tile {
+                h3 {
+                    min-height:50px;
+                }
+            }
+        }
+    }
+}
+@media screen and (max-width:1156px){
+    .work {
+        .tiles {
+            .tile {
+                h3{
+                    min-height:75px;
+                }
+            }
+        }
+    }
+}
 
+@media screen and (max-width:1101px){
+    .work {
+        .tiles {
+            .tile {
+                h3{
+                    min-height:100px;
+                }
+            }
+        }
+    }
+}
+@media screen and (max-width:1000px){
+    .work {
+        .tiles {
+            display:flex;
+            flex-flow:column;
+            flex-wrap:wrap;
+            .tile {
+                margin-left:0;
+                width:100%;
+                margin-bottom:2%;
+                h3{
+                    min-height:auto;
+                }
+            }
+            .tile:nth-child(even){
+                margin-left:0;
+            }
+        }
+    }
+}
+@media screen and (max-width:767px){
+    .work{
+        .tiles{
+            .tile{
+                width:98%;
+            }
+        }
+    }
+    .skills{
+        >div{
+            width:100%;
+            height:600px;
+            .drupal {
+                left:60%;
+            }
+            .html {
+                left:65%;
+                p{
+                    font-size:1.5em;
+                }
+            }
+            .cssandscss{
+                left:40%;
+                font-size:1.75em;
+                p{
+                    top:-70px;
+                }
+            }
+            .react {
+                left:15%;
+                p {
+                    left:0%;
+                }
+            }
+            .javascript {
+                left:15%;
+            }
+            .aem {
+                left:15%;
+                p {
+                    font-size:1em;
+                }
+            }
+            .wordpress {
+                left:40%;
+                width:20%;
+                p{
+                    left:10%;
+                }
+            }
+            .e-spirit {
+                left:65%;
+                p {
+                    font-size:1em;
+                }
+            }
+        }
+    }
+}
+@media screen and (max-width:500px){
+    .skills{
+        >div{
+            .drupal {
+                width:20%;
+                left:53%;
+            }
+            .html {
+                width:20%;
+                left:62%;
+                p{
+                    font-size:1.5em;
+                }
+            }
+            .cssandscss{
+                left:36%;
+                width:20%;
+                font-size:1.75em;
+                p{
+                    top:-70px;
+                }
+            }
+            .react {
+                left:10%;
+                width:20%;
+                p {
+                    left:0%;
+                }
+            }
+            .javascript {
+                left:8%;
+                top:41%;
+                width:20%;
+            }
+            .aem {
+                left:8%;
+                width:22%;
+                p {
+                    font-size:1em;
+                }
+            }
+            .wordpress {
+                top:36%;
+                left:35%;
+                width:28%;
+                p{
+                    left:18%;
+                }
+            }
+            .e-spirit {
+                left:60%;
+                width:14%;
+                top:51%;
+                p {
+                    font-size:1em;
+                }
+            }
+        }
+    }
+}
 @keyframes slideFromLeftFade {
     0% {
         transform: translateX(-10%);

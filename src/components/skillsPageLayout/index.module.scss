@@ -12,22 +12,6 @@ Skills
                     animation-duration:1.5s;
                 }
             }
-            .work{
-                .tiles{
-                    .tile{
-                        background:linear-gradient(to bottom right, #504f4f, #1b1b1b);
-                        padding:1%;
-                        transition:1s;
-                        animation-name:slideFromBottomFadeTiles;
-                        animation-duration:1.5s;
-                    }
-                    .tile:hover{
-                        cursor:grab;
-                        background:linear-gradient(to bottom right, #2b2a2a, #1b1b1b);
-                        transition:1s;
-                    }
-                }
-            }
         }
     }
 }
@@ -56,27 +40,20 @@ Skills
                 flex-flow:column;
                 justify-content:space-around;
                 width:100%;
-                .skills {
-                    flex:1;
-                    display:flex;
-                    flex-flow:column;
-                    justify-content: flex-end;
-                }
-                .work {
-                    flex:1;
-                    .tiles {
-                        display:block;
-                        .tile {
-                            width:46%;
-                            display:inline-block;
-                            margin-bottom:2%;
-                        }
-                        .tile:nth-child(even){
-                            margin-left:2%;
-                        }
-                    }
-                }
             }
+        }
+    }
+}
+
+@media screen and (max-width:766px){
+    .page{
+        display:flex;
+        flex-flow:column-reverse;
+        .text{
+            margin:0 20px;
+        }
+        .animation{
+            margin:25% 20px 5% 20px;
         }
     }
 }
