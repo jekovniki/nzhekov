@@ -8,6 +8,7 @@
         display:flex;
     }
     section.main > .navigation {
-        height:100vh;
+        height:100%;
+        display:contents;
     }
 }
