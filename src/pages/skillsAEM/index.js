@@ -3,10 +3,11 @@ import styles from './index.module.scss';
 import SkillsPageLayout from '../../components/skillsPageLayout';
 import SkillsPageContent from '../../components/skillsPageContent';
 
-const Skills = () => {
+
+const SkillsAEM = () => {
     return (
         <SkillsPageLayout>
-            <SkillsPageContent title="Skills &amp; Experience">
+            <SkillsPageContent title="Adobe Experience Manager" image="https://pluralsight2.imgix.net/paths/images/adobeexperiencemanager-f92d95ea47.png">
             <p>
                 Since beginning my journey as a freelance developer nearly 10 years ago, 
                 I've done remote work for agencies, consulted for startups, and collaborated with talented 
@@ -29,4 +30,4 @@ const Skills = () => {
     )
 }
 
-export default Skills
+export default SkillsAEM

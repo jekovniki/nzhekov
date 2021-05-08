@@ -1,0 +1,189 @@
+/* Something */
+
+/*
+Skills
+*/
+.skills {
+    position:relative;
+    flex:1;
+}
+.work {
+    position:relative;
+    flex:1;
+}
+.rightColumn {
+    height:100%;
+    display:flex;
+    flex-flow:column;
+}
+
+.work{
+    .tiles{
+        .tile{
+            background:linear-gradient(to bottom right, #504f4f, #1b1b1b);
+            padding:1%;
+            transition:1s;
+            animation-name:slideFromBottomFadeTiles;
+            animation-duration:1.5s;
+        }
+        .tile:hover{
+            cursor:grab;
+            background:linear-gradient(to bottom right, #2b2a2a, #1b1b1b);
+            transition:1s;
+        }
+    }
+}
+@media screen and (min-width:767px){
+    .work {
+        flex:1;
+        .tiles {
+            display:block;
+            .tile {
+                width:46%;
+                display:inline-block;
+                margin-bottom:2%;
+            }
+            .tile:nth-child(even){
+                margin-left:2%;
+            }
+        }
+    }
+}
+
+
+/* Skills icons*/
+
+// Styling
+a {
+    text-decoration:none;
+    color:#ffffff;
+}
+//Drupal class
+
+.drupal {
+    position:absolute;
+    left:53%;
+    top:65%;
+    img {
+        transform:rotate(-45deg);
+        transition:0.5s;
+        padding:1em;
+        width:125px;
+    }
+    p {
+        opacity:0;
+        transition:0.5s;
+        left:90%;
+        top:25%;
+        position:absolute;
+        width:100%;
+    }
+}
+
+.drupal{
+    img:hover{
+        transform:rotate(0deg);
+        transition:0.5s;
+    }
+    img:hover+p{
+        opacity:1;
+        transition:0.5s;
+    }
+}
+
+@keyframes slideFromLeftFade {
+    0% {
+        transform: translateX(-10%);
+        opacity:0;
+    }
+    50%{
+        opacity:0;
+    }
+    100% {
+        transform: translateX(0%);
+        opacity:1;
+    }
+}
+
+@keyframes slideFromBottomFade {
+    0% {
+        transform: translateY(20%);
+        opacity:0;
+    }
+    100% {
+        transform: translateY(0%);
+        opacity:1;
+    }
+}
+@keyframes slideFromTopFade {
+    0% {
+        transform: translateY(-20%);
+        opacity:0;
+    }
+    100% {
+        transform: translateY(0%);
+        opacity:1;
+    }
+}
+
+@keyframes slideFromLeft {
+    0% {
+        transform: translateX(-100%);
+    }
+    100% {
+        transform: translateX(0%);
+    }
+}
+
+@keyframes iconAnimation {
+    0% {
+        opacity:0;
+    }
+    33% {
+        opacity: 0;
+    }
+    66% {
+        opacity: 0;
+        transform:translateY(20%);
+    }
+    100% {
+        opacity:1;
+        transform:translateY(0%);
+    }
+}
+
+@keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+
+@keyframes slideFromBottomFadeTiles {
+    0% {
+        transform: translateY(20%);
+        opacity:0;
+    }
+    10% {
+        transform: translateY(20%);
+        opacity:0;
+    }
+    30% {
+        transform: translateY(20%);
+        opacity:0;
+    }
+    50% {
+        transform: translateY(20%);
+        opacity:0;
+    }
+    80% {
+        transform: translateY(20%);
+        opacity:0;
+    }
+    100% {
+        transform: translateY(0%);
+        opacity:1;
+    }
+}

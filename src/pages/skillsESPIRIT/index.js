@@ -3,10 +3,11 @@ import styles from './index.module.scss';
 import SkillsPageLayout from '../../components/skillsPageLayout';
 import SkillsPageContent from '../../components/skillsPageContent';
 
-const Skills = () => {
+
+const SkillsESPIRIT = () => {
     return (
         <SkillsPageLayout>
-            <SkillsPageContent title="Skills &amp; Experience">
+            <SkillsPageContent title="e-Spirit(First Spirit)" image="https://yt3.ggpht.com/ytc/AAUvwnjTAoGdRsXCqqyJz0phVBXWYMz_K49XC1Ob9RuF=s900-c-k-c0x00ffffff-no-rj">
             <p>
                 Since beginning my journey as a freelance developer nearly 10 years ago, 
                 I've done remote work for agencies, consulted for startups, and collaborated with talented 
@@ -29,4 +30,4 @@ const Skills = () => {
     )
 }
 
-export default Skills
+export default SkillsESPIRIT

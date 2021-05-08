@@ -1,15 +1,13 @@
 import React from 'react';
 import styles from './index.module.scss';
 import SkillsPageLayout from '../../components/skillsPageLayout';
+import SkillsPageContent from '../../components/skillsPageContent';
+
 
 const SkillsDrupal = () => {
     return (
         <SkillsPageLayout>
-            <div className={styles.rightColumn}>
-                <div className={styles.content}>
-                    <div className={styles.image}>
-                        <a className={styles['drupal']} href="/skills">
-                            <img src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/
+            <SkillsPageContent title="Drupal" image="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/
                                 Pg0KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDE5LjAuMCwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIF
                                 ZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPg0KPHN2ZyB2ZXJzaW9uPSIxLjEiIGlkPSJDYXBhXzEiIHhtbG5zPSJodHRwO
                                 i8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweC
@@ -38,18 +36,25 @@ const SkillsDrupal = () => {
                                 MjM3LDMuOTc1LTEwLjk5LTAuMjYyLTE1LjA4M0MzNDQuNTM3LDQzNi41MzcsMzM3Ljk4Myw0MzYuNTM3LDMzMy44NDksNDQwLjUyOUwzMzMuO
                                 DQ5LDQ0MC41Mjl6Ii8+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQ
                                 o8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4N
-                                CjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8L3N2Zz4NCg==" />
-                                <p>
-                                    <strong>Drupal 7, Drupal 8 and Drupal 9</strong>
-                                </p>
-                            </a>
-                    </div>
-                    <div className={styles.text}>
-                        <h3>Drupal</h3>
-                        <p>Lorem ipsum dolor sit amet....</p>
-                    </div>
-                </div>
-            </div>
+                                CjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8L3N2Zz4NCg==">
+            <p>
+                Since beginning my journey as a freelance developer nearly 10 years ago, 
+                I've done remote work for agencies, consulted for startups, and collaborated with talented 
+                people to create web products for both business and consumer use.
+            </p>
+            <p>
+                I create successful responsive websites that are fast, easy to use, and built with best practices.
+                The main area of my expertise is front-end developmnet, HTML, CSS, JS, building small and medium
+                web apps, custom plugins, features, animations, and coding interactive layouts.
+            </p>
+            <p>
+                I also have full-stack developer experience with popular open-source CMS like (Wordpress, Drupal,
+                Adobe Experience Manager, Typo3, Shopify, Shopware and others).
+            </p>
+            <p>
+                Visit my LinkedIn profile for more details or just contact me.
+            </p>
+            </SkillsPageContent>
         </SkillsPageLayout>
     )
 }

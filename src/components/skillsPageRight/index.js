@@ -41,7 +41,7 @@ const SkillsPageRight = () => {
                                     <strong>Drupal 7, Drupal 8 and Drupal 9</strong>
                                 </p>
                             </a>
-                            <a href="/skills" className={styles['html']}>
+                            <a href="/skills/html" className={styles['html']}>
                                 <img src="data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSItMzAgMCA1MTIgNTEyI
                                 iB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGQ9Im0wIDAgMzEuODAwNz
                                 gxIDQ0OC4xMDE1NjIgMTk0LjM5ODQzOCA2My44OTg0MzggMTk0LjM5ODQzNy02My44OTg0MzggMzE
@@ -57,7 +57,7 @@ const SkillsPageRight = () => {
                                 jBoLTE0MS4zMDA3ODF2LTYwem0wIDAiLz48L2c+PC9zdmc+" />
                                 <p>HTML</p>
                             </a>
-                            <a href="/skills" className={styles['cssandscss']}>
+                            <a href="/skills/css" className={styles['cssandscss']}>
                                 <img src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLT
                                 g4NTktMSI/Pg0KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDE5LjAuMCwgU1ZHIEV4cG9y
                                 dCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPg0KPHN2ZyB2ZXJzaW9uPSIxL
@@ -79,7 +79,7 @@ const SkillsPageRight = () => {
                                     <strong>CSS</strong>
                                 </p>
                             </a>
-                            <a href="/skills" className={styles['react']}>
+                            <a href="/skills/react" className={styles['react']}>
                                 <img src="data:image/svg+xml;base64,PHN2ZyBpZD0iTGF5ZXJfMSIgZW5hYmxlLWJhY2tncm91b
                                 mQ9Im5ldyAwIDAgNTEyIDUxMiIgaGVpZ2h0PSI1MTIiIHZpZXdCb3g9IjAgMCA1MTIgNTEyIiB3aWR0aD
                                 0iNTEyIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxnPjxwYXRoIGQ9Im0xNzEuODY
@@ -128,7 +128,7 @@ const SkillsPageRight = () => {
                                 TE4IDI3LjE5NC0xMTIuNjYxeiIgZmlsbD0iIzFlYTdhOCIvPjwvZz48L2c+PC9zdmc+" />
                                 <p>ReactJS</p>
                             </a>
-                            <a href="/skills" className={styles['javascript']}>
+                            <a href="/skills/javascript" className={styles['javascript']}>
                                 <img src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvL
                                 Tg4NTktMSI/Pg0KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDE5LjAuMCwgU1ZHIEV4cG
                                 9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPg0KPHN2ZyB2ZXJzaW9uPSI
@@ -168,7 +168,7 @@ const SkillsPageRight = () => {
                                 0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0K
                                 PC9nPg0KPC9zdmc+DQo=" />
                             </a>
-                            <a href="/skills" className={styles['aem']}>
+                            <a href="/skills/aem" className={styles['aem']}>
                                 <img src="https://pluralsight2.imgix.net/paths/images/adobeexperiencemanager-f92d95ea47.png"/>
                                 <p>
                                     <strong>
@@ -176,7 +176,7 @@ const SkillsPageRight = () => {
                                     </strong>
                                 </p>
                             </a>
-                            <a href="/skills" className={styles['wordpress']}>
+                            <a href="/skills/wordpress" className={styles['wordpress']}>
                                 <img src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/
                                 Pg0KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDE5LjAuMCwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZl
                                 cnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPg0KPHN2ZyB2ZXJzaW9uPSIxLjEiIGlkPSJMYXllcl8xIiB4bWxucz0iaHR0cDov
@@ -210,7 +210,7 @@ const SkillsPageRight = () => {
                                     Wordpress
                                 </p>
                             </a>
-                            <a href="/skills" className={styles['e-spirit']}>
+                            <a href="/skills/e-spirit" className={styles['e-spirit']}>
                                 <img src="https://yt3.ggpht.com/ytc/AAUvwnjTAoGdRsXCqqyJz0phVBXWYMz_K49XC1Ob9RuF=s900-c-k-c0x00ffffff-no-rj" />
                                 <p>
                                     e-Spirit
