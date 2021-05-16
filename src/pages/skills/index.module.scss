@@ -50,6 +50,27 @@ Skills
     }
 }
 
+.skills {
+    div{
+        section{
+            div+div{
+                >div{
+                    >div{
+                        >div+div{
+                            >div{
+                                >div{
+                                    animation-name:slideFromBottomFadeTiles!important;
+                                    animation-duration:1.5s;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
 
 /* Skills icons*/
 
@@ -58,8 +79,8 @@ Skills
     a {
         text-decoration:none;
         color:#ffffff;
-        animation-name:iconAnimation;
-        animation-duration:1.5s;
+        animation-name:iconAnimation!important;
+        animation-duration:1.5s!important;
     }
 }
 //Drupal class

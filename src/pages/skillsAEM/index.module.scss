@@ -50,6 +50,30 @@ Skills
     }
 }
 
+div{
+    section{
+        div+div{
+            >div{
+                >div{
+                    >div{
+                        a{
+                            animation-name:none!important;
+                            animation-duration:unset;
+                        }
+                    }
+                    >div+div{
+                        >div{
+                            >div{
+                                animation-name:none!important;
+                                animation-duration:unset;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
 
 /* Skills icons*/
 

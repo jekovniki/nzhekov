@@ -2,11 +2,13 @@
     display:block;
     position:relative;
     animation: Fade 2s ease forwards;
+    overflow:hidden;
     .img {
         width:100%;
         height:100%;
         object-fit:cover;
         object-position: center;
+        transition:0.5s;
     }
     .content {
         position:absolute;
@@ -44,6 +46,10 @@
     }
 }
 .projects:hover{
+    .img{
+        transform:scale(1.5);
+        transition:0.5s;
+    }
     .content{
         opacity:0;
         transition:0.5s;
