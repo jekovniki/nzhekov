@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import styles from './index.module.scss';
 import MainLayout from '../../components/mainLayout';
 import project1 from '../../images/greenproperty1.png'
@@ -9,19 +9,24 @@ import project4 from '../../images/algeco-ro.png'
 import project5 from '../../images/paramjute.png'
 import project6 from '../../images/juteplanet.png'
 import project7 from '../../images/lyubomislici.jpg'
-
-
-
-
+import project8 from '../../images/safelyleaveislam.png'
+import project9 from '../../images/omegacanvas.png'
+import greenpropertyFull from '../../images/greenproperty-page.webp'
 
 const Projects = () => {
+
+    const [isActive, setActive] = useState("false");
+    const ToggleClass = () => {
+        setActive(!isActive);
+    };
+    
     return (
         <MainLayout>
             <div className={styles.holder}>
                 <div className={styles.projects}>
                     <img src={project1} className={styles.img} 
                     alt="Green Property Investments" title="Green Property Investments"/>
-                    <div className={styles.view}><div><p>View<br/> project</p></div></div>
+                    <div className={styles.view} onClick={ToggleClass}><div><p>View<br/> project</p></div></div>
                     <div className={styles.content}>
                     </div>
                 </div>
@@ -65,6 +70,34 @@ const Projects = () => {
                 alt="Lyubomislici" title="Lyubomislici"/>
                     <div className={styles.view}><div><p>View<br/> project</p></div></div>
                     <div className={styles.content}>
+                    </div>
+                </div>
+                <div className={styles.projects}>
+                    <img src={project8} className={styles.img} 
+                alt="Safelyleaveislam" title="Safelyleaveislam"/>
+                    <div className={styles.view}><div><p>View<br/> project</p></div></div>
+                    <div className={styles.content}>
+                    </div>
+                </div>
+                <div className={styles.projects}>
+                    <img src={project9} className={styles.img} 
+                alt="Omegacanvas" title="Omegacanvas"/>
+                    <div className={styles.view}><div><p>View<br/> project</p></div></div>
+                    <div className={styles.content}>
+                    </div>
+                </div>
+            </div>
+            <div className={isActive ? "overlay" : "overlay show"}>
+                <div className={styles.close} onClick={ToggleClass}>
+                    <div className={styles.inner}>
+                        <label>Back</label>
+                    </div>
+                </div>
+                <div className={styles.projectInfo}>
+                    <img src={greenpropertyFull} className={styles.full}/>
+                    <div className={styles.webInfo}>
+                        <h2>Green Property Investments</h2>
+                        <p>Lorem ipsum dolor sit amet.</p>
                     </div>
                 </div>
             </div>
