@@ -38,7 +38,7 @@ const SkillsPageRight = () => {
                                 o8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4N
                                 CjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8L3N2Zz4NCg==" />
                                 <p>
-                                    <strong>Drupal 7, Drupal 8 and Drupal 9</strong>
+                                    <strong>Drupal</strong>
                                 </p>
                             </a>
                             <a href="/skills/html" className={styles['html']}>
@@ -172,7 +172,7 @@ const SkillsPageRight = () => {
                                 <img src="https://pluralsight2.imgix.net/paths/images/adobeexperiencemanager-f92d95ea47.png"/>
                                 <p>
                                     <strong>
-                                        Adobe<br/>Experience<br/>Manager
+                                        AEM
                                     </strong>
                                 </p>
                             </a>
@@ -211,22 +211,41 @@ const SkillsPageRight = () => {
                                 </p>
                             </a>
                             <a href="/skills/e-spirit" className={styles['e-spirit']}>
-                                <img src="https://yt3.ggpht.com/ytc/AAUvwnjTAoGdRsXCqqyJz0phVBXWYMz_K49XC1Ob9RuF=s900-c-k-c0x00ffffff-no-rj" />
+                                <img src="https://pbs.twimg.com/profile_images/466825667787497472/EjYW27HM.png" />
                                 <p>
                                     e-Spirit
                                 </p>
+                            </a>
+                            <a href="/skills/nodejs" className={styles['grpc']}>
+                                <img src="https://grpc.io/img/logos/grpc-logo.png" />
+                            </a>
+                            <a href="/skills/typescript" className={styles['typescript']}>
+                                <strong>TS</strong>
+                            </a>
+                            <a href="/skills/nodejs" className={styles['nodejs']}>
+                                <img src="https://nodejs.org/static/images/logo.svg" />
                             </a>
                             </div>
                         </div>
                         <div className={styles.work}>
                             <div className={styles.tiles}>
+                            <div className={styles.tile}>
+                                    <h3>
+                                        Full stack developer
+                                    </h3>
+                                    <h5>Finovation Ltd.</h5>
+                                    <p>
+                                        05/2021 - Present
+                                    </p>
+                                    <p>Leading Fintech company.</p>
+                                </div>
                                 <div className={styles.tile}>
                                     <h3>
                                         Expert in the regulatory compliance department
                                     </h3>
                                     <h5>EF Asset Managemnt JSC.</h5>
                                     <p>
-                                        09/2020 - Present
+                                        09/2020 - 05/2021
                                     </p>
                                     <p>Leading management company.</p>
                                 </div>

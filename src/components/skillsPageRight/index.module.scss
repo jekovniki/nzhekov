@@ -8,6 +8,13 @@ Skills
     flex:1;
     >div{
         min-height:600px;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(100px, 2fr));
+        grid-gap: 20px;
+        padding: 20px 0;
+        img {
+            width:100%;
+        }
     }
 }
 .work {
@@ -68,24 +75,15 @@ Skills
 //Drupal class
 
 .drupal {
-    position:absolute;
-    left:45%;
-    top:70%;
-    width:12%;
     img {
         transform:rotate(-45deg);
         transition:0.5s;
-        padding:1em;
-        width:100%;
     }
     p {
+        text-align:center;
         opacity:0;
         transition:0.5s;
-        left:100%;
-        margin-left:15%;
-        top:25%;
-        position:absolute;
-        width:100%;
+        margin-block-start:0px;
     }
 }
 
@@ -101,20 +99,16 @@ Skills
 }
 // HTML class
 .html {
-    position:absolute;
-    top:15%;
-    left:55%;
-    width:12%;
-    display:flex;
     img {
-        width:100%;
+        padding-top:10px;
         transform:rotate(45deg);
         transition:0.5s;
     }
     p {
         transition:0.5s;
         font-size:2em;
-        opacity:0
+        opacity:0;
+        margin-block-start:0px;
     }
 }
 .html:hover{
@@ -133,48 +127,32 @@ Skills
 }
 // CSS and SCSS class
 .cssandscss{
-    font-size:3em;
-    position:absolute;
-    top:15%;
-    margin-top:0;
-    left:30%;
-    width:15%;
     img {
         width:100%;
     }
     p {
+        margin-block-start:0px;
+        font-size:3em;
         opacity:0;
-        left:25%;
-        top:-90px;
         transition:0.5s;
-        position:absolute;
     }
 }
 .cssandscss:hover{
     p {
         opacity:1;
-        left:17%;
-        top:-110px;
-        letter-spacing:0.5em;
+        letter-spacing:0.35em;
         transition:0.5s;
     }
 }
 // React JS class
 .react {
-    font-size:2em;
-    transition:0.3s;
-    position:absolute;
-    left:5%;
-    top:15%;
-    width:15%;
     img {
-        width:100%;
         animation: App-logo-spin infinite 20s linear;
     }
     p {
-        top:-80px;
-        left:20%;
-        position:absolute;
+        margin-block-start:0px;
+        text-align:center;
+        font-size: 2em;
         opacity:0;
         transition:0.5s;
     }
@@ -184,7 +162,6 @@ Skills
         animation-play-state:paused;
     }
     p {
-        top:-100px;
         opacity:1;
         transition:0.5s;
     }
@@ -192,14 +169,8 @@ Skills
 // Javascirpt
 
 .javascript {
-    position:absolute;
-    left:5%;
-    top:45%;
-    width:12%;
     img {
-        width:100%;
         transition:0.5s;
-        padding:20px;
     }
 }
 .javascript {
@@ -212,28 +183,20 @@ Skills
 // AEM brown color
 
 .aem {
-    left:5%;
-    top:70%;
-    position:absolute;
-    width:15%;
     img {
-        width:100%;
         border-radius:50%;
         transition:0.5s;
     }
     p {
-        display:flex;
-        flex-flow:column;
-        justify-content: space-around;
         opacity:0;
         font-size:2em;
-        text-align:left;
-        left:110%;
-        top:0%;
-        position:absolute;
+        text-align:center;
     }
 }
 .aem{
+    p {
+        margin-block-start:0px;
+    }
     img:hover{
         background-color:rgb(88, 29, 29);
         transition:0.5s;
@@ -247,22 +210,10 @@ Skills
 
 //Wordpress class
 .wordpress {
-    display:flex;
-    align-items:center;
-    position:absolute;
-    left:30%;
-    top:45%;
-    width:15%;
-    img {
-        padding:1em;
-        width:100%;
-    }
     p {
         opacity:0;
         transition:0.5s;
-        bottom:-3em;
-        position:absolute;
-        left:30%;
+        text-align:center;
     }
 }
 
@@ -270,31 +221,19 @@ Skills
     img:hover+p{
         opacity:1;
         transition:0.5s;
-        bottom:-1.5em;
     }
 }
 
 //e-Spirit class
 .e-spirit {
-    display:flex;
-    align-items:center;
-    position:absolute;
-    top:47%;
-    left:50%;
-    width:10%;
     img {
-        padding:1em;
-        width:100%;
         transition:0.5s;
     }
     p {
+        margin-block-start:0px;
         opacity:0;
         transition:0.5s;
-        position:absolute;
-        left:100%;
         font-size:2em;
-        display:inline-block;
-        width:100%;
     }
 }
 
@@ -306,282 +245,26 @@ Skills
     img:hover+p{
         opacity:1;
         transition:0.5s;
-        left:100%;
-        margin-left:20%;
     }
 }
 
-@media screen and (min-width:1050px) and (max-width:1600px){
-    .drupal {
-        width:17%;
-    }
-    .html {
-        width:17%;
-        p {
-            font-size:1em;
-        }
-    }
-    .cssandscss{
-        width:20%;
-        font-size:2em;
-    }
-    .react {
-        width:20%;
-    }
-    .javascript {
-        width:17%;
-    }
-    .aem {
-        width:20%;
-        p {
-            font-size:1em;
-        }
-    }
-    .wordpress {
-        width:20%;
-    }
-    .e-spirit {
-        width:15%;
-        p {
-            font-size:1em;
-        }
+.typescript {
+    position:relative;
+    font-size:60px;
+    border-radius:15px;
+    transition: 0.5s;
+    max-height:150px;
+    strong {
+        position:absolute;
+        bottom:0px;
+        right:10px;
     }
 }
-@media screen and (min-width:767px) and (max-width:1050px){
-    .drupal {
-        width:20%;
-    }
-    .html {
-        width:17%;
-        top:28%;
-        left:37%;
-    }
-    .cssandscss{
-        width:20%;
-        left:35%;
-        font-size:1.75em;
-        p{
-            left:15%;
-            top:-30px;
-        }
-    }
-    .cssandscss:hover{
-        p{
-           top:-70px; 
-           left:15%;
-        }
-    }
-    .react {
-        width:20%;
-        p {
-            top:-80px;
-            left:0%;
-        }
-        :hover{
-            p{
-                top:-110px;
-            }
-        }
-    }
-    .javascript {
-        width:17%;
-        top:30%;
-    }
-    .aem {
-        width:20%;
-        p {
-            font-size:1em;
-        }
-    }
-    .wordpress {
-        width:20%;
-        top:50%;
-        left:10%;
-        p{
-            left:5%;
-        }
-    }
-    .e-spirit {
-        width:15%;
-        top:50%;
-        left:35%;
-        p {
-            font-size:1em;
-        }
-    }
-}
-@media screen and (max-width:2090px){
-    .work {
-        .tiles {
-            .tile {
-                h3 {
-                    min-height:50px;
-                }
-            }
-        }
-    }
-}
-@media screen and (max-width:1156px){
-    .work {
-        .tiles {
-            .tile {
-                h3{
-                    min-height:75px;
-                }
-            }
-        }
-    }
+.typescript:hover {
+    background-color:#007acc;
+    transition: 0.5s;
 }
 
-@media screen and (max-width:1101px){
-    .work {
-        .tiles {
-            .tile {
-                h3{
-                    min-height:100px;
-                }
-            }
-        }
-    }
-}
-@media screen and (max-width:1000px){
-    .work {
-        .tiles {
-            display:flex;
-            flex-flow:column;
-            flex-wrap:wrap;
-            .tile {
-                margin-left:0;
-                width:100%;
-                margin-bottom:2%;
-                h3{
-                    min-height:auto;
-                }
-            }
-            .tile:nth-child(even){
-                margin-left:0;
-            }
-        }
-    }
-}
-@media screen and (max-width:767px){
-    .work{
-        .tiles{
-            .tile{
-                width:98%;
-            }
-        }
-    }
-    .skills{
-        >div{
-            width:100%;
-            .drupal {
-                left:60%;
-            }
-            .html {
-                left:65%;
-                p{
-                    font-size:1.5em;
-                }
-            }
-            .cssandscss{
-                left:40%;
-                font-size:1.75em;
-                p{
-                    top:-70px;
-                }
-            }
-            .react {
-                left:15%;
-                p {
-                    left:0%;
-                }
-            }
-            .javascript {
-                left:15%;
-            }
-            .aem {
-                left:15%;
-                p {
-                    font-size:1em;
-                }
-            }
-            .wordpress {
-                left:40%;
-                width:20%;
-                p{
-                    left:10%;
-                }
-            }
-            .e-spirit {
-                left:65%;
-                p {
-                    font-size:1em;
-                }
-            }
-        }
-    }
-}
-@media screen and (max-width:500px){
-    .skills{
-        >div{
-            .drupal {
-                width:20%;
-                left:53%;
-            }
-            .html {
-                width:20%;
-                left:62%;
-                p{
-                    font-size:1.5em;
-                }
-            }
-            .cssandscss{
-                left:36%;
-                width:20%;
-                font-size:1.75em;
-                p{
-                    top:-70px;
-                }
-            }
-            .react {
-                left:10%;
-                width:20%;
-                p {
-                    left:0%;
-                }
-            }
-            .javascript {
-                left:8%;
-                top:41%;
-                width:20%;
-            }
-            .aem {
-                left:8%;
-                width:22%;
-                p {
-                    font-size:1em;
-                }
-            }
-            .wordpress {
-                top:36%;
-                left:35%;
-                width:28%;
-                p{
-                    left:18%;
-                }
-            }
-            .e-spirit {
-                left:60%;
-                width:14%;
-                top:51%;
-                p {
-                    font-size:1em;
-                }
-            }
-        }
-    }
-}
 @keyframes slideFromLeftFade {
     0% {
         transform: translateX(-10%);
