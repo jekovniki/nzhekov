@@ -1,5 +1,6 @@
 import React from 'react';
 import styles from './index.module.scss';
+import mysqlimg from  '../../images/mysql.png'
 
 const SkillsPageRight = () => {
     return (
@@ -224,6 +225,13 @@ const SkillsPageRight = () => {
                             </a>
                             <a href="/skills/nodejs" className={styles['nodejs']}>
                                 <img src="https://nodejs.org/static/images/logo.svg" />
+                            </a>
+                            <a href="/skills/nodejs" className={styles['mysql']}>
+                                <span>My</span><span>SQL</span>
+                                <img src={mysqlimg} />
+                            </a>
+                            <a href="/skills/nodejs" className={styles['php']}>
+                                <span>php</span>
                             </a>
                             </div>
                         </div>

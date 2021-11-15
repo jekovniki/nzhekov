@@ -39,7 +39,7 @@
                 height:2px;
                 background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
                 z-index:9;
-                width:40%;
+                width:70%;
                 animation-name:lineBack;
                 animation-duration:1.5s;
             }
@@ -207,7 +207,7 @@
         width:0;
     }
     100% {
-        width:40%;
+        width:70%;
     }
 }
 @keyframes lineReact {
