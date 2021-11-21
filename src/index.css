@@ -63,4 +63,8 @@ code {
     width:100%;
     transition:1s;
   }
+
+  .overlay {
+    width:100%;
+  }
 }

@@ -40,7 +40,7 @@
                 background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
                 z-index:9;
                 width:70%;
-                animation-name:lineBack;
+                animation-name:lineBack!important;
                 animation-duration:1.5s;
             }
             .lineReact {
@@ -48,7 +48,7 @@
                 background: #81D8D0;
                 z-index:9;
                 width:65%;
-                animation-name:lineReact;
+                animation-name:lineReact!important;
                 animation-duration:1.5s;
             }
             .lineDrupal {
@@ -56,7 +56,7 @@
                 background: #0076CE;
                 z-index:9;
                 width:90%;
-                animation-name:lineDrupal;
+                animation-name:lineDrupal!important;
                 animation-duration:1.5s;
             }
             a {

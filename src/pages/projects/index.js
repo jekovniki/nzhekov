@@ -19,6 +19,9 @@ import paramjuteFull from '../../images/paramjute-page.webp'
 import juteplanetFull from '../../images/juteplanet-page.webp'
 import safelyleaveislamFull from '../../images/safelyleaveislam.webp'
 import omegacanvasFull from '../../images/omegacanvas-page.webp'
+import christafilmsFull from '../../images/christafilms.webp'
+import christafilms from '../../images/christa-stage.webp'
+
  
 const Projects = () => {
     
@@ -67,9 +70,21 @@ const Projects = () => {
         setOmegacanvas(!isActiveOmegacanvas);
     };
 
+    const [isActiveChristafilms, setChristafilms] = useState("false");
+    const ToggleClassChristafilms = () => {
+        setChristafilms(!isActiveChristafilms);
+    };
+
     return (
         <MainLayout>
             <div className={styles.holder}>
+            <div className={styles.projects}>
+                    <img src={christafilms} className={styles.img} 
+                    alt="Christa Films" title="Christa Films"/>
+                    <div className={styles.view} onClick={ToggleClassChristafilms}><div><p>View<br/> project</p></div></div>
+                    <div className={styles.content}>
+                    </div>
+                </div>
                 <div className={styles.projects}>
                     <img src={project1} className={styles.img} 
                     alt="Green Property Investments" title="Green Property Investments"/>
@@ -131,6 +146,20 @@ const Projects = () => {
                 alt="Omegacanvas" title="Omegacanvas"/>
                     <div className={styles.view} onClick={ToggleClassOmegacanvas}><div><p>View<br/> project</p></div></div>
                     <div className={styles.content}>
+                    </div>
+                </div>
+            </div>
+            <div className={isActiveChristafilms ? "overlay" : "overlay show"}>
+                <div className={styles.close} onClick={ToggleClassChristafilms}>
+                    <div className={styles.inner}>
+                        <div className={styles.innerText}>Back</div>
+                    </div>
+                </div>
+                <div className={styles.projectInfo}>
+                    <img src={christafilmsFull} className={styles.full}/>
+                    <div className={styles.webInfo}>
+                        <h2>Green Property Investments</h2>
+                        <p>Lorem ipsum dolor sit amet.</p>
                     </div>
                 </div>
             </div>
