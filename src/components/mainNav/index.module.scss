@@ -33,7 +33,7 @@ header.navigation {
     .navigation > .container {
         justify-content:space-around;
         display:flex;
-        height:100vh;
+        min-height:100vh;
         flex-flow:column;
         width:150px;
     }

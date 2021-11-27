@@ -37,21 +37,16 @@ const SkillsWordpress = () => {
                                 nPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0K
                                 PC9zdmc+DQo=">
             <p>
-                Since beginning my journey as a freelance developer nearly 10 years ago, 
-                I've done remote work for agencies, consulted for startups, and collaborated with talented 
-                people to create web products for both business and consumer use.
+                Being the most well-known and used CMS, Wordpress is one of my main CMS when it comes
+                to freelance projects.
             </p>
             <p>
-                I create successful responsive websites that are fast, easy to use, and built with best practices.
-                The main area of my expertise is front-end developmnet, HTML, CSS, JS, building small and medium
-                web apps, custom plugins, features, animations, and coding interactive layouts.
+                I build custom themes for Wordpress, so the websites for my clients can be as quick and light as
+                possible. All the websites has SEO optimization and all the themes are responsive.
             </p>
             <p>
-                I also have full-stack developer experience with popular open-source CMS like (Wordpress, Drupal,
-                Adobe Experience Manager, Typo3, Shopify, Shopware and others).
-            </p>
-            <p>
-                Visit my LinkedIn profile for more details or just contact me.
+                I make sure that the websites are easy to manage by my clients. So after my work they can add 
+                content and use them as they need.
             </p>
             </SkillsPageContent>
         </SkillsPageLayout>

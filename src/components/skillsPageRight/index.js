@@ -1,6 +1,9 @@
 import React from 'react';
 import styles from './index.module.scss';
 import mysqlimg from  '../../images/mysql.png'
+import finovation from '../../images/finovation.png'
+import efam from '../../images/efam.png'
+import eurostar from '../../images/eurostar.png'
 
 const SkillsPageRight = () => {
     return (
@@ -226,11 +229,11 @@ const SkillsPageRight = () => {
                             <a href="/skills/nodejs" className={styles['nodejs']}>
                                 <img src="https://nodejs.org/static/images/logo.svg" />
                             </a>
-                            <a href="/skills/nodejs" className={styles['mysql']}>
+                            <a href="/skills/mysql" className={styles['mysql']}>
                                 <span>My</span><span>SQL</span>
                                 <img src={mysqlimg} />
                             </a>
-                            <a href="/skills/nodejs" className={styles['php']}>
+                            <a href="/skills/php" className={styles['php']}>
                                 <span>php</span>
                             </a>
                             </div>
@@ -246,6 +249,7 @@ const SkillsPageRight = () => {
                                         05/2021 - Present
                                     </p>
                                     <p>Leading Fintech company.</p>
+                                    <img src={finovation} className={styles.finovation} />
                                 </div>
                                 <div className={styles.tile}>
                                     <h3>
@@ -256,6 +260,7 @@ const SkillsPageRight = () => {
                                         09/2020 - 05/2021
                                     </p>
                                     <p>Leading management company.</p>
+                                    <img src={efam} className={styles.efam} />
                                 </div>
                                 <div className={styles.tile}>
                                     <h3>
@@ -266,6 +271,7 @@ const SkillsPageRight = () => {
                                         01/2020 - 09/2020
                                     </p>
                                     <p>Content management company.</p>
+                                    <img src={eurostar} className={styles.eurostar} />
                                 </div>
                                 <div className={styles.tile}>
                                     <h3>

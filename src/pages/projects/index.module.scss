@@ -132,14 +132,16 @@
     .holder {
         margin-top: 20%;
     }
-    
+
     .projectInfo {
         flex-flow:column-reverse;
         img.full{
             max-width:100%;
         }
         .webInfo{
-            padding:70px 2% 2%;
+            margin-bottom:auto;
+            margin-right: 18%;
+            padding:2%;
         }
     }
     .inner {

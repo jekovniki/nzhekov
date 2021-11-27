@@ -21,22 +21,19 @@ const SkillsHTML = () => {
                 NzcuNWgtNzEuMzk4NDM3di02MHptMCAwIi8+PHBhdGggZD0ibTM3MS42OTkyMTkgNzYtNC4xOTkyMTkgN
                 jBoLTE0MS4zMDA3ODF2LTYwem0wIDAiLz48L2c+PC9zdmc+">
             <p>
-                Since beginning my journey as a freelance developer nearly 10 years ago, 
-                I've done remote work for agencies, consulted for startups, and collaborated with talented 
-                people to create web products for both business and consumer use.
+                HTML and CSS are the backbone of web development. Being web developer, I always try
+                to follow the best practices and to use the newest technology.
             </p>
             <p>
-                I create successful responsive websites that are fast, easy to use, and built with best practices.
-                The main area of my expertise is front-end developmnet, HTML, CSS, JS, building small and medium
-                web apps, custom plugins, features, animations, and coding interactive layouts.
+                I try to keep the HTML of a website as clean as possible and try to use HTML5 tags as much as I can.
+                This way the websites are light and SEO friendly.
             </p>
             <p>
-                I also have full-stack developer experience with popular open-source CMS like (Wordpress, Drupal,
-                Adobe Experience Manager, Typo3, Shopify, Shopware and others).
+                About the CSS, most of the time I use SASS and compile it to CSS. However I have no problems using both.
+                I try to keep the idea of typing as little CSS as possible. Most of the time I'm building my websites
+                mobile first when using Flexbox. Apart from that I use Grid as well.
             </p>
-            <p>
-                Visit my LinkedIn profile for more details or just contact me.
-            </p>
+            <p>I don't stick to one technology, I try to be as versatile as I can.</p>
             </SkillsPageContent>
         </SkillsPageLayout>
     )

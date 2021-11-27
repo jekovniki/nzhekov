@@ -5,13 +5,11 @@ import SkillsPageContent from '../../components/skillsPageContent';
 
 const Skills = () => {
     return (
-        <div className={styles.skills}>
             <SkillsPageLayout>
                 <SkillsPageContent title="Skills &amp; Experience">
                 <p>
-                    Since beginning my journey as a freelance developer nearly 10 years ago, 
-                    I've done remote work for agencies, consulted for startups, and collaborated with talented 
-                    people to create web products for both business and consumer use.
+                    Since beginning my journey as a freelance developer nearly 6 years ago, 
+                    I've done remote work for clients all over the world to create web products for both business and consumer use.
                 </p>
                 <p>
                     I create successful responsive websites that are fast, easy to use, and built with best practices.
@@ -23,11 +21,10 @@ const Skills = () => {
                     Adobe Experience Manager, Typo3, Shopify, Shopware and others).
                 </p>
                 <p>
-                    Visit my LinkedIn profile for more details or just contact me.
+                    Visit my <a href="https://www.linkedin.com/in/nikolay-zhekov-529547167/" target="_blank">LinkedIn profile</a> for more details or just <a href="/contact">contact me</a>.
                 </p>
                 </SkillsPageContent>
             </SkillsPageLayout>
-        </div>
     )
 }
 

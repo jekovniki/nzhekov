@@ -38,21 +38,22 @@ const SkillsDrupal = () => {
                                 o8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4N
                                 CjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8L3N2Zz4NCg==">
             <p>
-                Since beginning my journey as a freelance developer nearly 10 years ago, 
-                I've done remote work for agencies, consulted for startups, and collaborated with talented 
-                people to create web products for both business and consumer use.
+                Drupal is the CMS that started my journey in web development. I started working with it in 2015
+                when I completed the <a href="/static/media/Drupal7.3232f96e.jpg" target="_blank">Drupal 
+                Site Building course</a> in Software University in Bulgaria. A year later when Drupal 8 got more stable I completed the 
+                <a href="/static/media/Drupal8.a6d529e9.jpeg" target="_blank">Drupal 8 Site Building course</a> 
+                as well.
             </p>
             <p>
-                I create successful responsive websites that are fast, easy to use, and built with best practices.
-                The main area of my expertise is front-end developmnet, HTML, CSS, JS, building small and medium
-                web apps, custom plugins, features, animations, and coding interactive layouts.
+                I build custom themes for Drupal, so the websites for my clients can be as quick and light as
+                possible. All the websites has SEO optimization and all the themes are responsive.
             </p>
             <p>
-                I also have full-stack developer experience with popular open-source CMS like (Wordpress, Drupal,
-                Adobe Experience Manager, Typo3, Shopify, Shopware and others).
+                I make sure that the websites are easy to manage by my clients. So after my work they can add 
+                content and use them as they need.
             </p>
             <p>
-                Visit my LinkedIn profile for more details or just contact me.
+                Most of my freelance projects are Drupal 6, Drupal 7 and Drupal 8 websites. So this is my go-to CMS. Visit the projects page so you can see some of my work with Drupal. 
             </p>
             </SkillsPageContent>
         </SkillsPageLayout>
