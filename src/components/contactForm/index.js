@@ -1,18 +1,51 @@
-import React, {useState, useCallback} from 'react';
+import React, { useRef, useState } from 'react';
+import styles from './index.module.scss';
+import emailjs from 'emailjs-com';
 
-export default class extends React.Component {
-    constructor(props){
-        super(props);
-        this.state = {feedback: '', name: 'Name', email:'jekovniki95@gmail.com'};
-        this.handleChange = this.handleChange.bind(this);
-        this.handleSubmit = this.handleSubmit.bind(this);
+
+const ContactForm = () => {
+    const form = useRef();
+
+    const sendEmail = (e) => {
+        e.preventDefault();
+
+        emailjs.sendForm('service_y2dgigo', 'template_yy5wdwc', form.current, 'user_vcnrgia9o76ckKFw1MlhQ')
+        .then((result) => {
+            console.log(result.text)
+        }, (error) => {
+            console.log(error.text)
+        })
     }
 
-    render(){
-        return(
-            <form>
-                <h1></h1>
+    const [isSubmit, submit] = useState("false");
+    const ToggleClassSubmit = () => {
+        submit(!isSubmit);
+    };
+
+    return (
+        <div className={isSubmit ? "form" : "submitted"}>
+            <form ref={form} onSubmit={sendEmail}>
+                <div className={styles.twoColumns}>
+                    <input type="text" name="user_name" placeholder="Name" />
+                    <input type="text" name="email" placeholder="Email" />
+                </div>
+                <div className={styles.singleColumn}>
+                    <input type="text" name="subject" placeholder="Subject" />
+                </div>
+                <div className={styles.singleColumn}>
+                    <textarea name="message" placeholder="Message"/>
+                </div>
+                <div className={styles.singleColumnSend}>
+                    <input type="submit" className={styles.send} value="Send message" onClick={ToggleClassSubmit} />
+                </div>
             </form>
-        )
-    }
+            <div className={styles.success}>
+                <p>
+                    Email was successfully send!
+                </p>
+            </div>
+        </div>
+    )
 }
+
+export default ContactForm

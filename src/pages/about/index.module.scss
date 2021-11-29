@@ -43,6 +43,14 @@
                 animation-name:lineBack!important;
                 animation-duration:1.5s;
             }
+            .lineNode {
+                height:2px;
+                background: #3C873A;
+                z-index:9;
+                width:65%;
+                animation-name:lineReact!important;
+                animation-duration:1.5s;
+            }
             .lineReact {
                 height:2px;
                 background: #81D8D0;

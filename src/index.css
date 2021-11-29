@@ -68,3 +68,16 @@ code {
     width:100%;
   }
 }
+
+.form, .submitted {
+  position: relative;
+}
+.form > div {
+  opacity:0;
+}
+.submitted > form {
+  opacity:0;
+}
+.submitted > div {
+  opacity: 1;
+}

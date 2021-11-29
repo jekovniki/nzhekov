@@ -60,6 +60,15 @@ const About = () => {
                                     </div>
                                 </div>
                             </div>
+                            <div className={styles.node}>
+                                <div>
+                                    NodeJS
+                                </div>
+                                <div className={styles.line}>
+                                    <div className={styles.lineNode}>
+                                    </div>
+                                </div>
+                            </div>
                             <div className={styles.drupal}>
                                 <div>Drupal</div>
                                 <div className={styles.line}>

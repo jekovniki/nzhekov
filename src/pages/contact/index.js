@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from './index.module.scss';
 import MainLayout from '../../components/mainLayout';
-import SimpleMap from '../../components/googleMaps'
+import ContactForm from '../../components/contactForm';
 
 const Contact = () => {
     return (
@@ -20,7 +20,7 @@ const Contact = () => {
                 </div>
                 <div className={styles.animation}>
                     <div className={styles.container}>
-                        <SimpleMap />
+                        <ContactForm />
                     </div>
                 </div>
             </section>
