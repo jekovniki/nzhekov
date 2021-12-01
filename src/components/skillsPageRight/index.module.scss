@@ -35,9 +35,9 @@ Skills
             background:linear-gradient(to bottom right, #504f4f, #1b1b1b);
             padding:1%;
             transition:1s;
-            animation-name:slideFromBottomFadeTiles;
-            animation-duration:1.5s;
             position: relative;
+            animation-name:slideFromBottomFadeTiles!important;
+            animation-duration:1.5s!important;
 
             img {
                 position:absolute;
@@ -110,8 +110,8 @@ Skills
     a {
         text-decoration:none;
         color:#ffffff;
-        animation-name:iconAnimation;
-        animation-duration:1.5s;
+        animation-name:showPop!important;
+        animation-duration:3s;
         max-height:150px;
     }
 }
@@ -472,5 +472,28 @@ Skills
     100% {
         transform: translateY(0%);
         opacity:1;
+    }
+}
+
+@keyframes showPop {
+    0%{
+        opacity:0;
+        transform: scale(0.5);
+    }
+    25% {
+        opacity:0;
+        transform: scale(0.5);
+    }
+    50% {
+        opacity:0;
+        transform: scale(0.5);
+    }
+    75% {
+        opacity:1;
+        transform: scale(1.25);
+    }
+    100%{
+        opacity:1;
+        transform: scale(1);
     }
 }

@@ -259,7 +259,7 @@ const SkillsPageRight = () => {
                                     <p>
                                         09/2020 - 05/2021
                                     </p>
-                                    <p>Leading management company.</p>
+                                    <p>Leading asset management company.</p>
                                     <img src={efam} className={styles.efam} />
                                 </div>
                                 <div className={styles.tile}>
