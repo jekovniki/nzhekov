@@ -71,15 +71,29 @@
 // Overlay part
 
 .projectInfo{
-    display:flex;
     width:100%;
     min-height:100vh;
+    text-align:center;
+
     img.full{
         padding:2%;
-        max-width:50%;
+        max-width:75%;
     }
     .webInfo{
-        padding:2%;
+        position:sticky;
+        bottom:0;
+        background-color:#360033;
+        width:100%;
+        transition:0.5s;
+        a {
+            padding:20px;
+            display:block;
+            width:100%;
+        }
+        &:hover {
+            background-color:#07636b;
+            transition:0.5s;
+        }
     }
 }
 .close {
@@ -136,7 +150,7 @@
     .projectInfo {
         flex-flow:column-reverse;
         img.full{
-            max-width:100%;
+            max-width:90%;
         }
         .webInfo{
             margin-bottom:auto;

@@ -158,8 +158,7 @@ const Projects = () => {
                 <div className={styles.projectInfo}>
                     <img src={christafilmsFull} className={styles.full}/>
                     <div className={styles.webInfo}>
-                        <h2>Green Property Investments</h2>
-                        <p>Lorem ipsum dolor sit amet.</p>
+                        <a href="http://www.christafilms.com/" target="_blank">christafilms.com</a>
                     </div>
                 </div>
             </div>
@@ -172,8 +171,7 @@ const Projects = () => {
                 <div className={styles.projectInfo}>
                     <img src={greenpropertyFull} className={styles.full}/>
                     <div className={styles.webInfo}>
-                        <h2>Green Property Investments</h2>
-                        <p>Lorem ipsum dolor sit amet.</p>
+                        <a href="https://greenpropertyinvestments.co.uk/" target="_blank">greenpropertyinvestments.co.uk</a>
                     </div>
                 </div>
             </div>
@@ -186,8 +184,7 @@ const Projects = () => {
                 <div className={styles.projectInfo}>
                     <img src={algecoFull} className={styles.full}/>
                     <div className={styles.webInfo}>
-                        <h2>Algeco Romania</h2>
-                        <p>Lorem ipsum dolor sit amet.</p>
+                        <a href="https://algeco.ro/" target="_blank">algeco.ro</a>
                     </div>
                 </div>
             </div>
@@ -200,8 +197,7 @@ const Projects = () => {
                 <div className={styles.projectInfo}>
                     <img src={newcarFull} className={styles.full}/>
                     <div className={styles.webInfo}>
-                        <h2>Newcar Superstore</h2>
-                        <p>Lorem ipsum dolor sit amet.</p>
+                        <a href="https://newcarsuperstore.com/" target="_blank">newcarsuperstore.com</a>
                     </div>
                 </div>
             </div>
@@ -214,8 +210,7 @@ const Projects = () => {
                 <div className={styles.projectInfo}>
                     <img src={oxnardFull} className={styles.full}/>
                     <div className={styles.webInfo}>
-                        <h2>Oxnard</h2>
-                        <p>Lorem ipsum dolor sit amet.</p>
+                        <a href="https://oxnardautofinance.com/" target="_blank">oxnardautofinance.com/</a>
                     </div>
                 </div>
             </div>
@@ -228,8 +223,7 @@ const Projects = () => {
                 <div className={styles.projectInfo}>
                     <img src={paramjuteFull} className={styles.full}/>
                     <div className={styles.webInfo}>
-                        <h2>Paramjute</h2>
-                        <p>Lorem ipsum dolor sit amet.</p>
+                        <a href="https://paramjute.com/" target="_blank">paramjute.com/</a>
                     </div>
                 </div>
             </div>
@@ -242,8 +236,7 @@ const Projects = () => {
                 <div className={styles.projectInfo}>
                     <img src={juteplanetFull} className={styles.full}/>
                     <div className={styles.webInfo}>
-                        <h2>Juteplanet</h2>
-                        <p>Lorem ipsum dolor sit amet.</p>
+                    <a href="https://juteplanet.com/" target="_blank">juteplanet.com/</a>
                     </div>
                 </div>
             </div>
@@ -256,8 +249,7 @@ const Projects = () => {
                 <div className={styles.projectInfo}>
                     <img src={project7} className={styles.full}/>
                     <div className={styles.webInfo}>
-                        <h2>Lyubomislici</h2>
-                        <p>Lorem ipsum dolor sit amet.</p>
+                    <a href="https://lyubomislici.com/" target="_blank">lyubomislici.com/</a>
                     </div>
                 </div>
             </div>
@@ -270,8 +262,7 @@ const Projects = () => {
                 <div className={styles.projectInfo}>
                     <img src={safelyleaveislamFull} className={styles.full}/>
                     <div className={styles.webInfo}>
-                        <h2>Safely Leave Islam</h2>
-                        <p>Lorem ipsum dolor sit amet.</p>
+                        <a href="https://safelyleaveislam.com/" target="_blank">safelyleaveislam.com/</a>
                     </div>
                 </div>
             </div>
@@ -284,8 +275,7 @@ const Projects = () => {
                 <div className={styles.projectInfo}>
                     <img src={omegacanvasFull} className={styles.full}/>
                     <div className={styles.webInfo}>
-                        <h2>Omegacanvas</h2>
-                        <p>Lorem ipsum dolor sit amet.</p>
+                        <a href="https://omegacanvas.com/" target="_blank">omegacanvas.com/</a>
                     </div>
                 </div>
             </div>
