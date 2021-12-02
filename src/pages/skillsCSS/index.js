@@ -25,7 +25,7 @@ const SkillsCSS = () => {
                 C9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxn
                 Pg0KPC9nPg0KPGc+DQo8L2c+DQo8L3N2Zz4NCg==">
             <p>
-                HTML and CSS are the backbone of web development. Being web developer, I always try
+                HTML and CSS are the backbones of web development. Being a web developer, I always try
                 to follow the best practices and to use the newest technology.
             </p>
             <p>
@@ -33,9 +33,9 @@ const SkillsCSS = () => {
                 This way the websites are light and SEO friendly.
             </p>
             <p>
-                About the CSS, most of the time I use SASS and compile it to CSS. However I have no problems using both.
-                I try to keep the idea of typing as little CSS as possible. Most of the time I'm building my websites
-                mobile first when using Flexbox. Apart from that I use Grid as well.
+            About the CSS, most of the time I use SASS and compile it to CSS. However, I have no problems using both.
+                I try to keep the idea of typing as little CSS as possible. I'm building my website's
+                mobile-first when using Flexbox. Apart from that, I use Grid as well.
             </p>
             <p>I don't stick to one technology, I try to be as versatile as I can.</p>
             </SkillsPageContent>

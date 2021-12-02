@@ -37,15 +37,15 @@ const SkillsWordpress = () => {
                                 nPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0K
                                 PC9zdmc+DQo=">
             <p>
-                Being the most well-known and used CMS, Wordpress is one of my main CMS when it comes
+                Being the most well-known and used CMS, WordPress is one of my main CMS when it comes
                 to freelance projects.
             </p>
             <p>
-                I build custom themes for Wordpress, so the websites for my clients can be as quick and light as
-                possible. All the websites has SEO optimization and all the themes are responsive.
+                I build custom themes for WordPress, so the websites for my clients can be as quick and light as
+                possible. All the websites have SEO optimization and all the themes are responsive.
             </p>
             <p>
-                I make sure that the websites are easy to manage by my clients. So after my work they can add 
+                I make sure that the websites are easy to manage by my clients. So after my work, they can add 
                 content and use them as they need.
             </p>
             </SkillsPageContent>

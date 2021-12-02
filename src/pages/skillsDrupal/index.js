@@ -46,14 +46,14 @@ const SkillsDrupal = () => {
             </p>
             <p>
                 I build custom themes for Drupal, so the websites for my clients can be as quick and light as
-                possible. All the websites has SEO optimization and all the themes are responsive.
+                possible. All the websites have SEO optimization and all the themes are responsive.
             </p>
             <p>
-                I make sure that the websites are easy to manage by my clients. So after my work they can add 
+                I make sure that the websites are easy to manage by my clients. So after my work, they can add 
                 content and use them as they need.
             </p>
             <p>
-                Most of my freelance projects are Drupal 6, Drupal 7 and Drupal 8 websites. So this is my go-to CMS. Visit the projects page so you can see some of my work with Drupal. 
+                Most of my freelance projects are Drupal 6, Drupal 7, and Drupal 8 websites. So this is my go-to CMS. Visit the projects page so you can see some of my work with Drupal. 
             </p>
             </SkillsPageContent>
         </SkillsPageLayout>

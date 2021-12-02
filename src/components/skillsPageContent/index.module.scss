@@ -16,6 +16,8 @@ h2.content {
     justify-content: space-around;
     img {
         width:30%;
+        animation-name: slideFromBottomFade;
+        animation-duration: 1s;
     }
 }
 @media screen and (max-width:1500px){
