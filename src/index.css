@@ -19,7 +19,7 @@ code {
   transition:1s;
 }
 .hide {
-  margin-top:-120%;
+  margin-top:-130%;
   transition:1s;
 }
 
@@ -43,7 +43,7 @@ code {
   overflow: visible !important;;
 }
 
-@media screen and (max-width:767px){
+@media screen and (max-width:899px){
   .line {
     width:80%;
     height:2px;

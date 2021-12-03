@@ -9,9 +9,9 @@ const Contact = () => {
             <section className={styles.page}>
                 <div className={styles.text}>
                     <div className={styles.container}>
-                        <h2>
+                        <h1>
                             Contact me
-                        </h2>
+                        </h1>
                         <p>
                             I’m interested in freelance opportunities – especially ambitious projects. 
                             However, if you have other request or question, don’t hesitate to use the form.

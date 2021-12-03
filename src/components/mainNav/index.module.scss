@@ -29,7 +29,7 @@ header.navigation {
         }
     }
 }
-@media screen and (min-width:767px){
+@media screen and (min-width:900px){
     .navigation > .container {
         justify-content:space-around;
         display:flex;
@@ -87,7 +87,7 @@ nav {
     }
 }
 
-@media screen and (max-width:767px){
+@media screen and (max-width:899px){
     .navigation {
         .header {
             background-color:transparent;

@@ -26,7 +26,7 @@ const Homepage = () => {
                         </p>
                     </h1>
                     <p>
-                        Front End Developer / Drupal Developer / ReactJS / CMS specialist
+                        Full-Stack Developer / Drupal / AEM / ReactJS / NodeJS 
                     </p>
                     <div className={styles.button}>
                         <a href="/contact">

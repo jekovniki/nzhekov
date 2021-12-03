@@ -8,8 +8,9 @@ const Skills = () => {
             <SkillsPageLayout>
                 <SkillsPageContent title="Skills &amp; Experience">
                 <p>
-                    Since beginning my journey as a freelance developer nearly 6 years ago, 
-                    I've done remote work for clients all over the world to create web products for both business and consumer use.
+                    Since beginning my journey as a developer nearly 6 years ago, I've done remote work for 
+                    clients all over the world to create web products for both business and consumer use. I was
+                    able to work for big international companies full-time.
                 </p>
                 <p>
                     I create successful responsive websites that are fast, easy to use, and built with best practices.
