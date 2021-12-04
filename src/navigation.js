@@ -21,6 +21,8 @@ import SkillsTypescript from './pages/skillsTypescript'
 import SkillsNodeJS from './pages/skillsNodeJS'
 import SkillsMySQL from './pages/skillsMySQL'
 import SkillsPHP from './pages/skillsPHP'
+import SkillsGRPC from './pages/skillsGRPC'
+
 
 
 
@@ -44,6 +46,7 @@ const Navigation = () => {
                 <Route path="/skills/react" exact component={ SkillsReact }/>
                 <Route path="/skills/typescript" exact component={ SkillsTypescript }/>
                 <Route path="/skills/nodejs" exact component={ SkillsNodeJS }/>
+                <Route path="/skills/grpc" exact component={ SkillsGRPC }/>
                 <Route path="/skills/mysql" exact component={ SkillsMySQL }/>
                 <Route path="/skills/php" exact component={ SkillsPHP }/>
                 <Route path="/projects" exact component={ Projects }/>

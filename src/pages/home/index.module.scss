@@ -71,6 +71,9 @@
 }
 .word {
     transition:0.5s;
+    p {
+        transition:0.25s;
+    }
 }
 .word:hover {
     transition:0.5s;
@@ -88,7 +91,7 @@
         }
     }
 }
-@media screen and (min-width:767px){
+@media screen and (min-width:900px){
     .home{
         >section {
             >div+div{
@@ -106,7 +109,7 @@
         }
     }
 }
-@media screen and (max-width:767px){
+@media screen and (max-width:899px){
     .home {
         position:relative;
         >section{
@@ -118,7 +121,7 @@
         .container {
             margin-left:20px;
             h1 {
-                font-size: 2.5em !important;;
+                font-size: 3.5em !important;;
             }
             p {
                 font-size:0.9em;
@@ -130,7 +133,7 @@
                 flex-flow:column-reverse;
                 justify-content: space-around;
                 .homepage {
-                    padding:100px 0;
+                    padding:50px 0;
                 }
                 .logo{
                     display:flex;

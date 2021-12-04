@@ -18,8 +18,8 @@ const About = () => {
                             Me, Myself &amp; I
                         </h1>
                         <p>
-                            I'm a Front-End Developer located in Bulgaria. I have a serious passion for UI effects, animations
-                            and creative intuitive, dynamic user experiences.
+                            I'm a Full-Stack Developer located in Bulgaria. I have a serious passion for Front-End - UI effects, animations
+                            and creating intuitive, dynamic user experiences.
                         </p>
                         <p>
                             Well-organised person, problem solver, independent employee with high attention to detail. Fan to all kinds

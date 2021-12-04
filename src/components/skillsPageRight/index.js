@@ -220,7 +220,7 @@ const SkillsPageRight = () => {
                                     e-Spirit
                                 </p>
                             </a>
-                            <a href="/skills/nodejs" className={styles['grpc']}>
+                            <a href="/skills/grpc" className={styles['grpc']}>
                                 <img src="https://grpc.io/img/logos/grpc-logo.png" />
                             </a>
                             <a href="/skills/typescript" className={styles['typescript']}>

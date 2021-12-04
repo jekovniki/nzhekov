@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Suspense, lazy } from 'react';
 import styles from './index.module.scss';
 import MainLayout from '../../components/mainLayout';
 import project1 from '../../images/greenproperty1.png'
@@ -22,6 +23,8 @@ import omegacanvasFull from '../../images/omegacanvas-page.webp'
 import christafilmsFull from '../../images/christafilms.webp'
 import christafilms from '../../images/christa-stage.webp'
 
+
+const Image = React.lazy(() => <img />)
  
 const Projects = () => {
     
