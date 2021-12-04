@@ -45,15 +45,15 @@ Skills
     }
 }
 
-@media screen and (max-width:766px){
+@media screen and (max-width:900px){
     .page{
         display:flex;
-        flex-flow:column-reverse;
+        flex-flow:column;
         .text{
             margin:0 20px;
         }
         .animation{
-            margin:25% 20px 5% 20px;
+            margin:40px 20px 20px 20px;
         }
     }
 }

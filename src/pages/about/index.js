@@ -14,9 +14,9 @@ const About = () => {
             <section className={styles.page}>
                 <div className={styles.text}>
                     <div className={styles.container}>
-                        <h2>
+                        <h1>
                             Me, Myself &amp; I
-                        </h2>
+                        </h1>
                         <p>
                             I'm a Front-End Developer located in Bulgaria. I have a serious passion for UI effects, animations
                             and creative intuitive, dynamic user experiences.

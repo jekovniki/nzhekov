@@ -1,9 +1,12 @@
 /*
 Skills
 */
-h2.content {
+h1.content {
     animation-name:slideFromTopFade;
     animation-duration:1.5s;
+    font-size: 35px;
+    margin-top:0;
+    margin-bottom:0;
 }
 .container{
     p{
@@ -28,9 +31,17 @@ h2.content {
     }
 }
 @media screen and (min-width:767px){
-    h2.content {
+    h1.content {
         font-size:4em;
         margin-block-end:0;
+    }
+}
+
+@media only screen and (max-width:899px) {
+    .mainimage {
+        img {
+            margin-bottom: 30px;
+        }
     }
 }
 

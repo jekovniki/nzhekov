@@ -73,10 +73,20 @@
     transition:0.5s;
 }
 .word:hover {
-    letter-spacing:0.1em;
     transition:0.5s;
     color:rgb(224, 224, 80);
     cursor:grab;
+
+    p{
+        &:nth-child(odd) {
+            transform: translateY(-20px);
+            transition: 0.4s;
+        }
+        &:nth-child(even) {
+            transform: translateY(20px);
+            transition: 0.4s;
+        }
+    }
 }
 @media screen and (min-width:767px){
     .home{

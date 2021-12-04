@@ -22,7 +22,18 @@ const Homepage = () => {
                         </p>
                         <p className={styles.paragraph}>
                             <p className={styles.letter}>w</p><p className={styles.letter}>e</p>
-                            <p className={styles.letter}>b</p> <p className={styles.word}>developer</p>
+                            <p className={styles.letter}>b</p>&nbsp;
+                             <p className={styles.word}>
+                                <p>d</p>
+                                <p>e</p>
+                                <p>v</p>
+                                <p>e</p>
+                                <p>l</p>
+                                <p>o</p>
+                                <p>p</p>
+                                <p>e</p>
+                                <p>r</p>
+                            </p>
                         </p>
                     </h1>
                     <p>

@@ -157,9 +157,9 @@ const Projects = () => {
                 </div>
                 <div className={styles.projectInfo}>
                     <img src={christafilmsFull} className={styles.full}/>
-                    <div className={styles.webInfo}>
-                        <a href="http://www.christafilms.com/" target="_blank">christafilms.com</a>
-                    </div>
+                </div>
+                <div className={styles.webInfo}>
+                    <a href="http://www.christafilms.com/" target="_blank">christafilms.com</a>
                 </div>
             </div>
             <div className={isActiveGreen ? "overlay" : "overlay show"}>
@@ -170,9 +170,9 @@ const Projects = () => {
                 </div>
                 <div className={styles.projectInfo}>
                     <img src={greenpropertyFull} className={styles.full}/>
-                    <div className={styles.webInfo}>
-                        <a href="https://greenpropertyinvestments.co.uk/" target="_blank">greenpropertyinvestments.co.uk</a>
-                    </div>
+                </div>
+                <div className={styles.webInfo}>
+                    <a href="https://greenpropertyinvestments.co.uk/" target="_blank">greenpropertyinvestments.co.uk</a>
                 </div>
             </div>
             <div className={isActiveAlgeco ? "overlay" : "overlay show"}>
@@ -183,9 +183,9 @@ const Projects = () => {
                 </div>
                 <div className={styles.projectInfo}>
                     <img src={algecoFull} className={styles.full}/>
-                    <div className={styles.webInfo}>
-                        <a href="https://algeco.ro/" target="_blank">algeco.ro</a>
-                    </div>
+                </div>
+                <div className={styles.webInfo}>
+                    <a href="https://algeco.ro/" target="_blank">algeco.ro</a>
                 </div>
             </div>
             <div className={isActiveNewCar ? "overlay" : "overlay show"}>
@@ -196,9 +196,9 @@ const Projects = () => {
                 </div>
                 <div className={styles.projectInfo}>
                     <img src={newcarFull} className={styles.full}/>
-                    <div className={styles.webInfo}>
-                        <a href="https://newcarsuperstore.com/" target="_blank">newcarsuperstore.com</a>
-                    </div>
+                </div>
+                <div className={styles.webInfo}>
+                    <a href="https://newcarsuperstore.com/" target="_blank">newcarsuperstore.com</a>
                 </div>
             </div>
             <div className={isActiveOxnard ? "overlay" : "overlay show"}>
@@ -209,9 +209,9 @@ const Projects = () => {
                 </div>
                 <div className={styles.projectInfo}>
                     <img src={oxnardFull} className={styles.full}/>
-                    <div className={styles.webInfo}>
-                        <a href="https://oxnardautofinance.com/" target="_blank">oxnardautofinance.com/</a>
-                    </div>
+                </div>
+                <div className={styles.webInfo}>
+                    <a href="https://oxnardautofinance.com/" target="_blank">oxnardautofinance.com/</a>
                 </div>
             </div>
             <div className={isActiveParamjute ? "overlay" : "overlay show"}>
@@ -222,9 +222,9 @@ const Projects = () => {
                 </div>
                 <div className={styles.projectInfo}>
                     <img src={paramjuteFull} className={styles.full}/>
-                    <div className={styles.webInfo}>
-                        <a href="https://paramjute.com/" target="_blank">paramjute.com/</a>
-                    </div>
+                </div>
+                <div className={styles.webInfo}>
+                    <a href="https://paramjute.com/" target="_blank">paramjute.com/</a>
                 </div>
             </div>
             <div className={isActiveJuteplanet ? "overlay" : "overlay show"}>
@@ -235,9 +235,9 @@ const Projects = () => {
                 </div>
                 <div className={styles.projectInfo}>
                     <img src={juteplanetFull} className={styles.full}/>
-                    <div className={styles.webInfo}>
+                </div>
+                <div className={styles.webInfo}>
                     <a href="https://juteplanet.com/" target="_blank">juteplanet.com/</a>
-                    </div>
                 </div>
             </div>
             <div className={isActiveLyubomislici ? "overlay" : "overlay show"}>
@@ -248,9 +248,9 @@ const Projects = () => {
                 </div>
                 <div className={styles.projectInfo}>
                     <img src={project7} className={styles.full}/>
-                    <div className={styles.webInfo}>
+                </div>
+                <div className={styles.webInfo}>
                     <a href="https://lyubomislici.com/" target="_blank">lyubomislici.com/</a>
-                    </div>
                 </div>
             </div>
             <div className={isActiveBook ? "overlay" : "overlay show"}>
@@ -261,9 +261,9 @@ const Projects = () => {
                 </div>
                 <div className={styles.projectInfo}>
                     <img src={safelyleaveislamFull} className={styles.full}/>
-                    <div className={styles.webInfo}>
-                        <a href="https://safelyleaveislam.com/" target="_blank">safelyleaveislam.com/</a>
-                    </div>
+                </div>
+                <div className={styles.webInfo}>
+                    <a href="https://safelyleaveislam.com/" target="_blank">safelyleaveislam.com/</a>
                 </div>
             </div>
             <div className={isActiveOmegacanvas ? "overlay" : "overlay show"}>
@@ -274,9 +274,9 @@ const Projects = () => {
                 </div>
                 <div className={styles.projectInfo}>
                     <img src={omegacanvasFull} className={styles.full}/>
-                    <div className={styles.webInfo}>
-                        <a href="https://omegacanvas.com/" target="_blank">omegacanvas.com/</a>
-                    </div>
+                </div>
+                <div className={styles.webInfo}>
+                    <a href="https://omegacanvas.com/" target="_blank">omegacanvas.com/</a>
                 </div>
             </div>
         </MainLayout>

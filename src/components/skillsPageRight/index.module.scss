@@ -11,11 +11,18 @@ Skills
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(100px, 2fr));
         grid-gap: 20px;
-        padding: 20px 0;
+        padding: 20px 40px 20px 0;
         grid-template-rows: repeat(auto-fit, 175px);
 
         img {
             width:100%;
+        }
+    }
+}
+@media only screen and (max-width: 400px) {
+    .skills {
+        >div {
+            grid-template-columns: repeat(auto-fit, minmax(75px, 2fr));
         }
     }
 }
@@ -102,6 +109,100 @@ Skills
     }
 }
 
+// tiles
+@media only screen and (max-width:2090px) {
+    .work {
+        .tiles {
+            .tile:nth-child(1) {
+                h3 {
+                    padding-bottom:24px;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width:1398px) {
+    .work {
+        .tiles {
+            .tile:nth-child(1) {
+                h3 {
+                    padding-bottom:46px;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width:1156px) {
+    .work {
+        .tiles {
+            .tile:nth-child(1) {
+                h3 {
+                    padding-bottom:71px;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width:1101px) {
+    .work {
+        .tiles {
+            .tile:nth-child(1) {
+                h3 {
+                    padding-bottom:96px;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width:1039px) {
+    .work {
+        .tiles {
+            .tile:nth-child(1) {
+                h3 {
+                    padding-bottom:75px;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width:999px) {
+    .work {
+        .tiles {
+            .tile:nth-child(1) {
+                h3 {
+                    padding-bottom:50px;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width:899px) {
+    .work {
+        .tiles {
+            .tile:nth-child(1) {
+                h3 {
+                    padding-bottom:25px;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .work {
+        .tiles {
+            .tile {
+                margin-bottom: 20px;
+            }
+        }
+    }
+}
 
 /* Skills icons*/
 
