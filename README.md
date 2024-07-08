@@ -1,3 +1,7 @@
+# Note
+
+This project is my first ever react applications that I have build. It used create-react-app (which is now deprecated) and it hold my personal website at the time
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
